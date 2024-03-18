@@ -1,0 +1,62 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="d-lg-flex half">
+    <div class="contents order-2 order-md-1">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-7 py-5" *ngIf="adminDashboardDetails">
+                    <h3>Dashboard</h3>
+                    <p>Postal Exam Center Details</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group first">
+                                <p>No Of Visitors</p>
+                                <div>{{adminDashboardDetails.userVisitedCount}}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group first">
+                                <p>Latest Hit to Website</p>
+                                <div>{{adminDashboardDetails.lastestHitToSite}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group first">
+                                <p>No Of Issues Reported</p>
+                                <div>{{adminDashboardDetails.noOfIssuesReported}}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group first">
+                                <p>No of Feedback Recieved</p>
+                                <div>{{adminDashboardDetails.noOfFeedbacks}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group first">
+                                <p>Total Users</p>
+                                <div>{{adminDashboardDetails.totalUsers}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group first">
+                                <button type="submit" class="btn btn-secondary btn-block mb10"
+                                    (click)="refreshData()">Refresh</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

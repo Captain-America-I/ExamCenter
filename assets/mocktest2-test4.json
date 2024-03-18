@@ -1,0 +1,1252 @@
+[
+    {
+        "subTopicId": 20,
+        "questionId": "78601",
+        "label": "Categories of Foreign postal articles are",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Letter post & Parcel post"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Registration post & Ins post"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Airmail & Sea mail"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "94190",
+        "label": "The abbreviation 'UPU' stands for",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "United Postal Union"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Universal postal union"
+            },
+            {
+                "choiceId": "C3",
+                "value": "United Pacific Union"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "61831",
+        "label": "Asian Oceanic Postal Union is having its head quarter at",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Dacca "
+            },
+            {
+                "choiceId": "C2",
+                "value": "New Delhi"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Singapore"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Mannilla(Phillipines)"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "94030",
+        "label": "India joined the AOPU in the year",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "1970 "
+            },
+            {
+                "choiceId": "C2",
+                "value": "1975"
+            },
+            {
+                "choiceId": "C3",
+                "value": "1978"
+            },
+            {
+                "choiceId": "C4",
+                "value": "1973 "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "71789",
+        "label": "The fee for special services Registration acknowledge, insurance certificate of posting and late fee are",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Not uniform for all destination"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Uniform for all destinations"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Of two different rates on for western countries and another for eastern countries"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "48133",
+        "label": "AD means",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Acknowledgement due"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Advice of delivery"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Actual Delivery"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "75687",
+        "label": "Label size of foreign article is min & postage paid words should not be less than",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "70mm X 100mm & 300sq mm "
+            },
+            {
+                "choiceId": "C2",
+                "value": " 50mm X 80mm & 200sq mm"
+            },
+            {
+                "choiceId": "C3",
+                "value": " 25mm X 50 mm & 100 sq mm "
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "86918",
+        "label": "The delivery of a foreign article in the country of destination",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Varies from country to country"
+            },
+            {
+                "choiceId": "C2",
+                "value": "As desired by the sender"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Uniform all over"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "63391",
+        "label": "Mark the correct option:",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rate applicable for recall of foreign article in case letter 10gm & Telegraph 15 words"
+            },
+            {
+                "choiceId": "C2",
+                "value": "The fee paid for the recall will not be refunded under any circumstances"
+            },
+            {
+                "choiceId": "C3",
+                "value": "The fee paid for the recall will not be refunded under any circumstances"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "26569",
+        "label": "Article except VP addressed as 'Postal Restante' are detained in the PO of delivery for the period not exceeding",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Seven days "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Three month"
+            },
+            {
+                "choiceId": "C3",
+                "value": "One month"
+            },
+            {
+                "choiceId": "C4",
+                "value": "One month"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "85556",
+        "label": "Mark the correct option:",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Surface mail items received from any country for delivery in India may be redirected to any place within India"
+            },
+            {
+                "choiceId": "C2",
+                "value": "First class mail surcharge or un surcharged are eligible for free redirection by air within India"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Surface mail received for delivery in India from any country not applying reduced charges for India may be redirected to another country by the surface mail without any charge for the redirection."
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "99606",
+        "label": "Mark the correct option",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Surface mail received for delivery in India from a country India may be redirected by the surface mail to any country on payment if dispatched to its new destination"
+            },
+            {
+                "choiceId": "C2",
+                "value": "f the above charge not paid before redirection, it will be treated as insufficiently paid & tax equal to difference in postage (notdouble) to be collected at the time of delivery "
+            },
+            {
+                "choiceId": "C3",
+                "value": "a and b are correct"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "78800",
+        "label": "Mark correct option related to official postal articles",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The rules relating to private correspondence apply equally to official postal article"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Service stamps can be used for prepayin outward official foreign mail but the postage due on inward foreign mail addressed to Govt officers cannot be paid by means of service stamps"
+            },
+            {
+                "choiceId": "C3",
+                "value": "All of above are correct"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "55842",
+        "label": "Correspondence for personnel of the Indian Armed Forces serving outside India addressed to the Indian Army PO.",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Should be prepaid as air article"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Should be prepaid as if SAL"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Should be prepaid as inland article for all purpose"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "55470",
+        "label": "The max weight of an Airmail letter should not exceed",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "4 Kg"
+            },
+            {
+                "choiceId": "C2",
+                "value": "5 Kg"
+            },
+            {
+                "choiceId": "C3",
+                "value": "2 Kg"
+            },
+            {
+                "choiceId": "C4",
+                "value": "1 Kg"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "86973",
+        "label": "Dimensions of Postcards is ",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Max 100 X 150 mm & min 80 X 140 mm"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Max 105 X 149 mm & min 90 X 140 mm"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Max 150 X 200 mm & min 70X 140 mm "
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "16335",
+        "label": "Mark incorrect option related to Postcard",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Mark incorrect option related to Postcard"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Breach the conditions may be treated as letter and postage will be taxed accordingly"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Unpaid and insufficiently paid postcards are forwarded taxed with double the deficiency. "
+            },
+            {
+                "choiceId": "C4",
+                "value": "The amount recovered from sender after the delivery"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "68317",
+        "label": "The corresponding inland post service to the printed paper service in the foreign post is",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Pattern and sample packet"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Book packet service"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Registered News paper"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "73011",
+        "label": "The following items may be sent as printed papers through book packet",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Manuscripts of works or for newpaper"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Musical scores or sheets of music in manuscript."
+            },
+            {
+                "choiceId": "C3",
+                "value": "Musical scores or sheets of music in manuscript."
+            },
+            {
+                "choiceId": "C4",
+                "value": "a & b only "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "51103",
+        "label": "Mark correct option related to packet of regd news paper",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Breach of conditions the packet will not be forwarded but will be returned to sender."
+            },
+            {
+                "choiceId": "C2",
+                "value": "Sender will be required to pay double deficiency in the internal postage"
+            },
+            {
+                "choiceId": "C3",
+                "value": "If the sender wish to repost the article after complying with necessary conditions, he may do so by paying fresh postage in full on the article."
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "61091",
+        "label": "Mark correct option related to bulk bag system under foreign post",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Application for bulk bag facility should be made to Head of the circle"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Special bags of printed newspaper to/from addressees/sender in foreign countries except ceylon, Nepal, Bhutan and Pakistan may be send"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Bulk bag may be sent either as unregistered or registered."
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "40993",
+        "label": "Mark correct option",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "A small packet should not exceed 1 Kg in weight."
+            },
+            {
+                "choiceId": "C2",
+                "value": "A small packet should not exceed 1 Kg in weight."
+            },
+            {
+                "choiceId": "C3",
+                "value": "Small packet not conforming to the conditions will be returned to the sender and will be charged at double the deficiency for a rate applicable in the inland post."
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "87919",
+        "label": "The fee for a blind literature packet to be air lifted to a foreign county is",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Air surcharge as applicable to letter post"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Free of charge"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Air surcharge as applicable to printed paper"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "47357",
+        "label": "Foreign post manual the terms L.C means",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Letter card"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Letter categor"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Letters and Cards"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "81496",
+        "label": "Foreign post manual the terms A.O means",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Accounts office of the foreign country"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Other subjects"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Administrative office of the foreign country "
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "71154",
+        "label": "In the foreign post for the purpose of fixing surcharges and combined charges all the countries and territories are divided into ",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Six groups"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Seven groups"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Five groups"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Eight groups"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "80120",
+        "label": "The aerogramme in foreign post is a category intended for transmission exclusively by air and the corresponding category in inland post is.",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Inland letter card"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Oblong envelope"
+            },
+            {
+                "choiceId": "C3",
+                "value": "No corresponding category"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "51786",
+        "label": "The min and max size permissible for folded aerogramme is",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "100 X 140 & 120 X 120 "
+            },
+            {
+                "choiceId": "C2",
+                "value": "90 X 140 & 110 X 120"
+            },
+            {
+                "choiceId": "C3",
+                "value": "90 X 140 & 110 X 120"
+            },
+            {
+                "choiceId": "C4",
+                "value": "90 X 140 & 110 X 120"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "49652",
+        "label": "An aerogramme should not weigh more than",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "3 gms "
+            },
+            {
+                "choiceId": "C2",
+                "value": "5 gms"
+            },
+            {
+                "choiceId": "C3",
+                "value": "10 gms"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "78089",
+        "label": "Mark correct option related to unpaid and insufficiently paid airmail articles",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Mark correct option related to unpaid and insufficiently paid airmail articles"
+            },
+            {
+                "choiceId": "C2",
+                "value": "In case postage paid less than 75% of the surcharge or combined charge thearticle will be dispatched through surface."
+            },
+            {
+                "choiceId": "C3",
+                "value": "The charge collected from addressee at the time of delivery"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "85429",
+        "label": "Compensation of letter and bulk bag of foreign articles are",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "220(60 gold francs) & 1110( 300 gold francs)"
+            },
+            {
+                "choiceId": "C2",
+                "value": "110(60 gold francs) & 1110( 300 gold francs)"
+            },
+            {
+                "choiceId": "C3",
+                "value": "200(60 gold francs) & 1000( 300 gold francs)"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "10717",
+        "label": "If an unpaid or under paid registered article under foreign post is tendered at the counter ",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "It cannot be registered and refused"
+            },
+            {
+                "choiceId": "C2",
+                "value": "It can be registered with an note that the deficiency would be collected from addresse"
+            },
+            {
+                "choiceId": "C3",
+                "value": "It can be registered with an note that the deficiency would be collected from addresse"
+            },
+            {
+                "choiceId": "C4",
+                "value": "It can be registered with an note that the deficiency would be collected from addresse"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "45385",
+        "label": "No liability is also accepted for the loss of registered articles in the following cases",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "In circumstanced beyond the control."
+            },
+            {
+                "choiceId": "C2",
+                "value": "In circumstanced beyond the control."
+            },
+            {
+                "choiceId": "C3",
+                "value": "If the item contained anything which is prohibited from transmission by post"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "11086",
+        "label": "The limit adopted in India for booking air insured letter is",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "20000"
+            },
+            {
+                "choiceId": "C2",
+                "value": "5000"
+            },
+            {
+                "choiceId": "C3",
+                "value": "10000"
+            },
+            {
+                "choiceId": "C4",
+                "value": "100000 "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "66307",
+        "label": "Insured boxes dimensions and weight limit is",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Max 200X200X100, min as per letter & 2 Kg"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Max 300X200X100, min as per letter & 1 Kg "
+            },
+            {
+                "choiceId": "C3",
+                "value": "Max 100X200X100, min as per letter & 4 Kg "
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "10932",
+        "label": "Under foreign post article containing perishable biological substances can beaccepted for sending",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "At all Gazetted Head post offices only"
+            },
+            {
+                "choiceId": "C2",
+                "value": "At all the GPOs situated at the HQ of the circle"
+            },
+            {
+                "choiceId": "C3",
+                "value": "At Indian council of Medical research, New Delhi"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "55718",
+        "label": "Mark incorrect option related to international reply coupons",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Not more than 10 International reply coupon or 30 commonwealth reply coupon will be sold to any one individual at any time."
+            },
+            {
+                "choiceId": "C2",
+                "value": "The coupons can be exchanged in any country which is a member of the UPU"
+            },
+            {
+                "choiceId": "C3",
+                "value": " Reply coupons are intended to enable senders to prepay for a reply."
+            },
+            {
+                "choiceId": "C4",
+                "value": "Reply coupons are free of cost"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "50395",
+        "label": "Under foreign post the international parcel post service with Pakistan and India is carried based on",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The UPU parcel post agreement."
+            },
+            {
+                "choiceId": "C2",
+                "value": "The UPU parcel post agreement."
+            },
+            {
+                "choiceId": "C3",
+                "value": "A special bilateral agreement"
+            },
+            {
+                "choiceId": "C4",
+                "value": "A special bilateral agreement"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "41871",
+        "label": "The min and max dimension of a foreign parcel prescribed is",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "100 X 140 & 1mtr X 2 mtr "
+            },
+            {
+                "choiceId": "C2",
+                "value": "90 X 140 & 1.5mtr X 2 mtr"
+            },
+            {
+                "choiceId": "C3",
+                "value": "90 X 140 & 1mtr X 2 mtr"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "16738",
+        "label": "The general maximum limit of weight for a foreign parcel is",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "25 Kg"
+            },
+            {
+                "choiceId": "C2",
+                "value": "30 Kg"
+            },
+            {
+                "choiceId": "C3",
+                "value": "10kg"
+            },
+            {
+                "choiceId": "C4",
+                "value": "20 Kg"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "85978",
+        "label": "Generally air parcels are subject to the lower limit of weight of",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "25 Kg"
+            },
+            {
+                "choiceId": "C2",
+                "value": "30 Kg"
+            },
+            {
+                "choiceId": "C3",
+                "value": "10 Kg"
+            },
+            {
+                "choiceId": "C4",
+                "value": "20Kg"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "89668",
+        "label": "If the addressee of an inward foreign parcel wants to take delivery of his parcel at the office of exchange",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "It will be refused as there is no provision in the rule"
+            },
+            {
+                "choiceId": "C2",
+                "value": "It has to be approved by the D section of the directorate"
+            },
+            {
+                "choiceId": "C3",
+                "value": "The addressee has to call on the office of exchange with all the documents related including proof of his identity"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "16104",
+        "label": "When an insured foreign parcel is redirected form one country to the another .",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "No additional insurance fee is to be levied"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Half of the original insurance fee is to levied for such transmissions"
+            },
+            {
+                "choiceId": "C3",
+                "value": "A fresh insurance fee become payable for each such transmission"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "88482",
+        "label": "A money order returned from a foreign country of payment as not payable",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The sender will paid the value of the money order as actually paid in Indiancurrency at the time of issue without the commission originally collected."
+            },
+            {
+                "choiceId": "C2",
+                "value": "The sender will be paid the value of the MO+ commission."
+            },
+            {
+                "choiceId": "C3",
+                "value": "The sender will be paid half the value of the MO without the MO commission"
+            },
+            {
+                "choiceId": "C4",
+                "value": "The sender will be paid the value of the MO and half commission"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "56127",
+        "label": "The request a purchase of British Postal Order for repayment",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Cannot be accepted"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Can be accepted if presented at the PO from which it was purchased a/w counterfoil"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Can be accepted any post office in India"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "45505",
+        "label": "Mark correct options",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "COD means Cash-on-Delevery"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Under COD system may be exchanged VP parcel"
+            },
+            {
+                "choiceId": "C3",
+                "value": "VP letter, Parcel & COD parcel may be insured in accordance with the conditions"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above are correct"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "35705",
+        "label": "The customs control based on the Indians customs act 1962 is for",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The imposition of export or import duties"
+            },
+            {
+                "choiceId": "C2",
+                "value": "For ensuring the observance of the provisions of import and export control act"
+            },
+            {
+                "choiceId": "C3",
+                "value": "For ensuring the observation of foreign exchange regulation act"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "25524",
+        "label": "Mark correct option",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Custom declaration from filled in duplicate"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Custom declaration from are two types i) Treen custom label(C-1) ii) Detailed declaration form(C-2)"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Custom declaration form is filled by sender"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of above are correct "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "76064",
+        "label": "The customs control is primarily exercised at",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The point of entry"
+            },
+            {
+                "choiceId": "C2",
+                "value": "The point of exit"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Foreign post office "
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 20,
+        "questionId": "52157",
+        "label": "Articles liable to export duty are detained at the outward office of exchange and the sender is informed regarding the payment of duty",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "By the office of exchange"
+            },
+            {
+                "choiceId": "C2",
+                "value": "By the custom authorities directly"
+            },
+            {
+                "choiceId": "C3",
+                "value": "By the head office of the circle concerned"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All of the above"
+            }
+        ]
+    }
+]

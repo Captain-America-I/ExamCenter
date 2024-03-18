@@ -1,0 +1,752 @@
+[
+	{
+		"subTopicId": 7,
+		"questionId": "61501",
+		"label": "Which of the following products/services are not mentioned in the schedule of the Indian Post Office Act:",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Printed Post Card"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Speed Post"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Letter Cards"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Parcels"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "35466",
+		"label": "Which of the following is true of Postage stamps as mentioned in IPO Act,1898?",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Postage stamps are deemed to be stamps for the purpose of revenue."
+			},
+			{
+				"choiceId": "C2",
+				"value": "Postage stamps are deemed to be sovereign guarantee"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Postage stamps are deemed to be cash for the purpose of revenue"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Postage stamps are deemed to be equivalent to currency notes printed by the Reserve Bank of India."
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "60788",
+		"label": "Which of the following is correct as mentioned in the Consumer Protection Act 1986.",
+		"correctChoiceId": "C1",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "A complaint can only be dismissed as frivolous or vexatious by the National Commission"
+			},
+			{
+				"choiceId": "C2",
+				"value": "A complaint can only be dismissed as frivolous or vexatious by the State Commission"
+			},
+			{
+				"choiceId": "C3",
+				"value": "A complaint can be dismissed as frivolous or vexatious by either the District Forum, State Commission or National Commission"
+			},
+			{
+				"choiceId": "C4",
+				"value": "A complaint can be dismissed as frivolous or vexatious by the High Court or Supreme Court of India"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "93659",
+		"label": "Which of the following is not prescribed in the provisions of Prevention of Money Laundering Act?",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Seizure of Property"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Attachment of Property"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Confiscation of Property"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Life Imprisonment"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "79930",
+		"label": "As per the Public Provident Fund Act 1968, the withdrawal shall be allowed only",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "After the expiry of a period of three years from the end of the year in which he makes the initial subscription to the Fund"
+			},
+			{
+				"choiceId": "C2",
+				"value": "After the expiry of a period of five years from the end of the year in which he makes the initial subscription to the Fund"
+			},
+			{
+				"choiceId": "C3",
+				"value": "After the expiry of a period of seven years from the end of the year in which he makes the initial subscription to the Fund"
+			},
+			{
+				"choiceId": "C4",
+				"value": "After the expiry of a period of fifteen years from the end of the year in which he makes the initial subscription to the Fund."
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "35885",
+		"label": "Which of the following statement is correct w.r.t. Business Reply Cards",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "The fee for the permit shall be recovered after the service has been rendered"
+			},
+			{
+				"choiceId": "C2",
+				"value": "The Business Reply Card can be folded or cut"
+			},
+			{
+				"choiceId": "C3",
+				"value": "The minimum size of Business Reply Card shall confirm to the sizeand quality with the conditions prescribed for post cards of private manufacture."
+			},
+			{
+				"choiceId": "C4",
+				"value": "The Business Reply Card has been withdrawn"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "14399",
+		"label": "In which of the below mentioned scenarios is Registration not compulsory",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Any Insured Articles"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Any Registered article which is reposted after being delivered"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Any Value Payable article"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Any magazine which is published abroad but posted in India and whose price per copy is less than Rs.20"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "19395",
+		"label": "The advantage of QR Code in IPPB is",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "One need not remember the account number but must remember the password to under go banking activity"
+			},
+			{
+				"choiceId": "C2",
+				"value": "ne needs to remember the account number but not the password toundergo banking activity"
+			},
+			{
+				"choiceId": "C3",
+				"value": " One need not remember the account number or any password to undergo banking activity "
+			},
+			{
+				"choiceId": "C4",
+				"value": "One need to remember the QR number which is the date of birth of the account holder to undergo banking activity"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "70165",
+		"label": "What is the preservation period of Franking Machine Daily Docket (FM 12)",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": " Six months "
+			},
+			{
+				"choiceId": "C2",
+				"value": "One year six months"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Two years"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Two years six months"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "24532",
+		"label": "KYC norms for booking of foreign articles in india are not required for the following:",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Speed post International"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Foreign Parcel"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Foreign Letter"
+			},
+			{
+				"choiceId": "C4",
+				"value": "International Tracked Packet"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "10247",
+		"label": "Which amongst the various aspects of the IT Modernization Project was totally implemented first",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Financial Services Integrator (FSI)"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Core System Integrator (CSI)"
+			},
+			{
+				"choiceId": "C3",
+				"value": " Data Centre"
+			},
+			{
+				"choiceId": "C4",
+				"value": "DARPAN"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "29210",
+		"label": "Which is not a component of the Core System Integrator (CSI)",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Computerisation of Postal, Mails,Counter operations of Post Offices"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Computerisation of finance & accounts of the Department"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Computerisation of Human Resource (HR) function of the Department"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Computerisation of the administrative work of Circle Offices, Regional Offices and Divisional Offices"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "82739",
+		"label": "What is the correct meaning of CBS under IT Modernization Project",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Cloud Based Service"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Core Banking Solution"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Cloud Banking Solution"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Cored Based Service"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "40440",
+		"label": "The aim of the Mail Operations Hardware stream of the IT Modernization Project aim at",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Supply of hardware to TMOs only"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Supply of hardware to Mail Offices only"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Supply of hardware to Mail Offices and hand-held devices to Postman staff of Post Offices"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Supply of hardware to Mail Offices and hand-held devices to GDS staff of Post Offices"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "15843",
+		"label": "Ideally what should have been the list component of the IT Modernization Project ",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "FSI - Financial System Integrator"
+			},
+			{
+				"choiceId": "C2",
+				"value": "CSI - Core System Integrator"
+			},
+			{
+				"choiceId": "C3",
+				"value": " RSI-Rural System Integrator "
+			},
+			{
+				"choiceId": "C4",
+				"value": "MOH - Mail Operation Hardware"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "78342",
+		"label": "The net acerction to Post Office Life Insurance Fund (PGIF) and Rural Postal Life Insurance Fund (RPOIF)",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Utilized by the Ministry of Finance for infrastructure purposes giving afixed rate of return"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Are being utilised by the RBI fo r infrastructure development"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Invested in Government securities and other portfolios as per IRDA guidelines"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Invested in life insurance corporation funds for infrastructural development"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "64714",
+		"label": "The Core Insurance Solution envisages the following (i) Facility of web portal and mobile portal (ii)Convenient premium payment options (iii) Customer care (iv) Anytime anywhere policy Procurement - which of the following amongst the above are correct:",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "i & ii only "
+			},
+			{
+				"choiceId": "C2",
+				"value": "i,ii,iii only"
+			},
+			{
+				"choiceId": "C3",
+				"value": "ii & iii only"
+			},
+			{
+				"choiceId": "C4",
+				"value": "All of the above"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "71149",
+		"label": "The following are the criteria for non medical policy i) Minimum is 35 years ii) For PLI, maximum sum assuredRs.1 lakh endowment assurance iii) For RPLI, maximum sum assureRs.25000 endowment assurance. The following are correct:",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "i & ii only"
+			},
+			{
+				"choiceId": "C2",
+				"value": "i & iii only"
+			},
+			{
+				"choiceId": "C3",
+				"value": "ii & iii only"
+			},
+			{
+				"choiceId": "C4",
+				"value": "All of the above"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "24143",
+		"label": "Approximately how many Post Office have been declared as Plastic free India",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Around 210"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Around 320"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Around 350"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Around 290"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "27347",
+		"label": "In the word DARPAN, first two lette 'D' & 'A' stands for",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": " Digital Adventure"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Data Advancement"
+			},
+			{
+				"choiceId": "C3",
+				"value": " Digital Advancement"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Digital Advantage"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "23542",
+		"label": "Which of the following statements with reference to Pradhan Mantri Suraksha Bima Yojana is not true:",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "The amount payable to the insuranton total and irrecoverable loss of sight of one eye or loss of use ofone hand or foot is Rs.1 lakh"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Joint Account holders can join the Scheme by paying separate premium for each of the account holders."
+			},
+			{
+				"choiceId": "C3",
+				"value": "Premium is Rs.12 per month"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Participating Banks will be the Master Policy holders in this scheme"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "17826",
+		"label": "Under CBS, which of the following Menu to be entered by the counter PA to create CIF of the customer:",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "CMRC "
+			},
+			{
+				"choiceId": "C2",
+				"value": "CCRC "
+			},
+			{
+				"choiceId": "C3",
+				"value": "CASBAO "
+			},
+			{
+				"choiceId": "C4",
+				"value": "HPBP"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "69640",
+		"label": "How many scans are required for a domestic TD speed post article from its journey of booking to delivery? ",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Two "
+			},
+			{
+				"choiceId": "C2",
+				"value": "Four"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Six"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Eight"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "11760",
+		"label": "The Speed Post articles will qualify as a parcel when the following conditions are met",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": " The weight of the article exceeds100 gms"
+			},
+			{
+				"choiceId": "C2",
+				"value": "The weight of the article exceeds200 gms"
+			},
+			{
+				"choiceId": "C3",
+				"value": "The weight of the article exceeds 300 gms"
+			},
+			{
+				"choiceId": "C4",
+				"value": "The weight of the article exceeds 500 gms"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "70884",
+		"label": "The number of LI & L2 hubs which have been operationalised across India sider the PNOP is",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": " 30 LI & 100 L2"
+			},
+			{
+				"choiceId": "C2",
+				"value": "35 LI & 100 L2 "
+			},
+			{
+				"choiceId": "C3",
+				"value": "45 LI & 100 L2"
+			},
+			{
+				"choiceId": "C4",
+				"value": "53 LI & 132 L2"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "20471",
+		"label": "The booking of Service Money Order needs authorisation of",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Supervisor"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Post master"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Either A or B"
+			},
+			{
+				"choiceId": "C4",
+				"value": "No authorisation is required"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "39814",
+		"label": "The eMO system has provision for",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": " Remittance from one to one"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Remittance from one to many"
+			},
+			{
+				"choiceId": "C3",
+				"value": " Remittance from many to one"
+			},
+			{
+				"choiceId": "C4",
+				"value": "All the above"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "83393",
+		"label": "What is the minimum amount for which an IMO can be booket? ",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Rs. 100"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Rs. 500"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Rs. 1000"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Rs. 5000"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "92572",
+		"label": "Which of the following is true for Sukanya Samriddhi Yojana",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "It is only offered through Post Offices"
+			},
+			{
+				"choiceId": "C2",
+				"value": "It is being offered only through Private sector banks"
+			},
+			{
+				"choiceId": "C3",
+				"value": "It is being offered through Private sector banks as well as public sector banks"
+			},
+			{
+				"choiceId": "C4",
+				"value": "It is being offered through Post office and Public and Private sector Banks"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "24902",
+		"label": "Which of the following is not true of the Sukanya Samriddhi Yojana Account",
+		"correctChoiceId": "C1",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "It can be opened in the name of a NRI Girl Child"
+			},
+			{
+				"choiceId": "C2",
+				"value": "It can not be opened in the name of a NRI Girl Child"
+			},
+			{
+				"choiceId": "C3",
+				"value": "It has an exempt-exempt - exempt(EEE)"
+			},
+			{
+				"choiceId": "C4",
+				"value": "It provides tax deduction benefits under Section 80C upto Rs.1.5 lakh annually."
+			}
+		]
+	}
+]

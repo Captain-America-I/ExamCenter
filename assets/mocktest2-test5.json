@@ -1,0 +1,1020 @@
+[
+    {
+        "subTopicId": 21,
+        "questionId": "19321",
+        "label": "From ----------- the accounts work relating to the postal branch of the P& T department was separated from P& T audit",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "01.04.1977"
+            },
+            {
+                "choiceId": "C2",
+                "value": "01.04.1976"
+            },
+            {
+                "choiceId": "C3",
+                "value": "01.08.1980"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "65598",
+        "label": "The bifurcation of Posts and telegraph department was happened",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "1985 "
+            },
+            {
+                "choiceId": "C2",
+                "value": "1976"
+            },
+            {
+                "choiceId": "C3",
+                "value": "1990"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "26623",
+        "label": "The business performed by telecommunication was transferred to ----------- on 01.10.2000",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "VSNL"
+            },
+            {
+                "choiceId": "C2",
+                "value": "BSNL"
+            },
+            {
+                "choiceId": "C3",
+                "value": "P& T department"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "17195",
+        "label": "The telephones General manager, Telecom stores is included in --------- category",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Director - General "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Head of department "
+            },
+            {
+                "choiceId": "C3",
+                "value": "Head of Circle"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "68083",
+        "label": "What is the usage of form LI-37?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Repayment of loans of PLI"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Voucher for any payment"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "11578",
+        "label": "All cheques , Bills etc preferable at a treasury for payment being non-egotiable instruments can be endorsed only once The above said statement is",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "TRUE"
+            },
+            {
+                "choiceId": "C2",
+                "value": "FALSE"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "28783",
+        "label": "For What purpose the Specimen signature of AD in charge of PLI is circulated to whole circle concerned?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "To enable Payment of government Securities at any post office"
+            },
+            {
+                "choiceId": "C2",
+                "value": "To Limit the payment of PLI selected offices"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "76989",
+        "label": "What is the purpose of special metallic embossing seal ?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Stamping the voucher of final payment of GPF "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Stamping the any type of payment voucher"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "23262",
+        "label": "---------------- is necessary to draw the pay and allowance when a staff transferred from one place to another",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "LPC  "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Pay slip  "
+            },
+            {
+                "choiceId": "C3",
+                "value": "Service BooK"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "12217",
+        "label": "The government employee must submit his claim within -------- for reimbursement of the expenditure incurred on the Journey , if the advance has been drawn for availing LTC",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": " Three month"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Two month "
+            },
+            {
+                "choiceId": "C3",
+                "value": "One month"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "89242",
+        "label": "The term over charge and is related with ------------",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "LTC"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Claim of LTC"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Railway fares and freight for calculating claim"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "90669",
+        "label": "When a specific approval from Director general for investigation is needed for a claims to arrears of pay to Government official ?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Claims more than six year"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Claims more than one year"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Claims more than two year"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "34683",
+        "label": "Claims more than two year",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": " 1898 "
+            },
+            {
+                "choiceId": "C2",
+                "value": "1850 "
+            },
+            {
+                "choiceId": "C3",
+                "value": "1899"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "33473",
+        "label": "No Government officer may issue duplicates or copies of receipts granted for money received  ........The above said statement is",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "true "
+            },
+            {
+                "choiceId": "C2",
+                "value": "false"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "72959",
+        "label": "7 In post offices defalcations or losses, should be charged in the schedule of --------------- and payments and recoveries of losses should be credited in the schedule of ---------------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "UCP, UCR"
+            },
+            {
+                "choiceId": "C2",
+                "value": "UCR, UCP,"
+            },
+            {
+                "choiceId": "C3",
+                "value": " receipts , payments"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "56665",
+        "label": "When a term serious loss occurring to immovable property of department",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "all loss exceeding Rs 1000/-"
+            },
+            {
+                "choiceId": "C2",
+                "value": "all loss exceeding Rs 5000/- "
+            },
+            {
+                "choiceId": "C3",
+                "value": "all loss exceeding RS 10000/-"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "66197",
+        "label": "A register of destruction of records in form ------------should be maintained in each office and prepared preserved permanently",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "ACG 91"
+            },
+            {
+                "choiceId": "C2",
+                "value": "ACG 67"
+            },
+            {
+                "choiceId": "C3",
+                "value": "ACG"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "19357",
+        "label": "Charges against two or more major heads should be included in one bill..................The above said statement is",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "TRUE"
+            },
+            {
+                "choiceId": "C2",
+                "value": "FALSE"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "60404",
+        "label": "The transaction relating to the business managed by the department on behalf of the government are included in --------------------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Remittance and debt sections of the account"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Major account heads"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "26449",
+        "label": "The capital accounts concepts created on the basis the department of Posts are recognized as ---------------------- department",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Government"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Non commercial department"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Commercial"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "20301",
+        "label": "The capital accounts of the Posts and Telecommunication departments on a commercial basis with effect from -----------The capital accounts of the Posts and Telecommunication departments on a commercial basis with effect from -----------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "01.04.1925"
+            },
+            {
+                "choiceId": "C2",
+                "value": "01.01.2000 "
+            },
+            {
+                "choiceId": "C3",
+                "value": "04.05.2002"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "47137",
+        "label": "P & T Revenue fund was instituted with effect from ----------------",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "01.04.1925"
+            },
+            {
+                "choiceId": "C2",
+                "value": "01.04.1960"
+            },
+            {
+                "choiceId": "C3",
+                "value": "03.05.1960"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "77897",
+        "label": " If a government servant from whom a recovery is ordered , is transferred to the jurisdiction of disbursing officer",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "recovery should be completed before his transfer"
+            },
+            {
+                "choiceId": "C2",
+                "value": "order of recovery should be passed on to that disbursing officer "
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "94813",
+        "label": "Representations against recovery should be submitted by aggrieved Government servant within a -------------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "One Month"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Two month"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Three Month"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "91893",
+        "label": "The objections statements are prepared by the accounts offices in ---------------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": " Duplicate "
+            },
+            {
+                "choiceId": "C2",
+                "value": " Triplicate "
+            },
+            {
+                "choiceId": "C3",
+                "value": "Single Copy "
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "53916",
+        "label": "The account records against which audit objections are pending should not be destroyed until final settlement of audit objections...................The above said statement is",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "TRUE"
+            },
+            {
+                "choiceId": "C2",
+                "value": "FALSE"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "60938",
+        "label": "The second part of audit inspection reports is ------------------------",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Schedule of Persistent irregularities"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Outstanding objections from previous reports in brief"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Introductory "
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "43835",
+        "label": "Audited bills , Vouchers can be resend by audit office after a requisition submittedthrough ------- to Circle account office",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Head of the Division"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Head of the Circle"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Disbursing officer"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "72148",
+        "label": "Credit challans and pay orders should be treated as ----------------",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Cheque"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Credit certificate"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "24625",
+        "label": "A cheque drawn on any bank located at the same station as that of the head post office and accepted at any of its sub offices will also be regarded as-----------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Local Cheque  "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Outstation Cheque"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "56213",
+        "label": "Cheque payment of Postage from the holders of Franking machine licenses can be accepted with bank guarantee.The above said statement is",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "True"
+            },
+            {
+                "choiceId": "C2",
+                "value": "False"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "38911",
+        "label": "ACG 28 denotes -----------",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Register of dishonoured Cheque"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Register of cheques received and cleared "
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "93800",
+        "label": "The transaction is entered in cash book on the basis of ----------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Occurrence"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Amount"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "26630",
+        "label": "35 Tr 29 denotes",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Cash Book"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Contingent register"
+            },
+            {
+                "choiceId": "C3",
+                "value": "HO Summary"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "12965",
+        "label": "From the following allowance , which is exempted from court attachment",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Basic Pay"
+            },
+            {
+                "choiceId": "C2",
+                "value": "All kinds of travelling allowance"
+            },
+            {
+                "choiceId": "C3",
+                "value": "DP"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "53430",
+        "label": "Net amount attachable = X-Y-1000/3 then y represent",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Total Gross emoluments"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Net emoluments"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Subsistence Allowance"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "49744",
+        "label": "The period for which the officer has been declared temporarily unfit should be intimated to the ---------------",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Circle Account office"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Head of the Region "
+            },
+            {
+                "choiceId": "C3",
+                "value": "Head of the Circle "
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "42569",
+        "label": "Withdrawal for claim for travelling allowance of government Servants may be allowed even without Surrender of LPC  The above said stamen is",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "TRUE"
+            },
+            {
+                "choiceId": "C2",
+                "value": "FALSE"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "29847",
+        "label": "Arrear of Pay, fixed allowance or leave salary shall be drawn in ----------- Bill",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Separate Bill "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Monthly Bill "
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these "
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "23543",
+        "label": "Form No C P W A -52 is used for",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "A Register of certificate"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Register of issued cheque"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Register of Cheque Book"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "17155",
+        "label": "The pay and allowance for the Month of March will be paid on the ----------------- of April ",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "First working day "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Second working day of April"
+            },
+            {
+                "choiceId": "C3",
+                "value": "First working day of April"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "17334",
+        "label": "If Pay or allowances be due in India to government servant absent outside then Government will make arrangement to pay the due amount to him The above said statement is ",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "TRUE"
+            },
+            {
+                "choiceId": "C2",
+                "value": "FALSE"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "15575",
+        "label": "Form No ACG 17 is used to record the payments to ---------------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Honoraria granted to person not in Government Service"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Honoraria granted to person in Government Service"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "34069",
+        "label": "A45 Claims to honoraria granted to officials of the department should be drawn in the pay bill form No--------------",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Form ACG 7"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Form ACG 67"
+            },
+            {
+                "choiceId": "C3",
+                "value": "ACG No 20"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "17533",
+        "label": "ACG 19 is related with",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Building"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Establishment"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Over Payment"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "63067",
+        "label": "The service books should be kept arranged -----------",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Alphabetically"
+            },
+            {
+                "choiceId": "C2",
+                "value": "On the basis of cadre"
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "65080",
+        "label": "Preservation period for keeping service Books after death, resigns and discharge of employee is -------",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "10 years"
+            },
+            {
+                "choiceId": "C2",
+                "value": "2 Years"
+            },
+            {
+                "choiceId": "C3",
+                "value": "5 Years"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "37638",
+        "label": "The descriptive particulars on the --------- of a government servant's service book should be reattested every five year by the supervising officer",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Last Page "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Second Page "
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these "
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "43045",
+        "label": "The right of government servant to TA including Daily allowance is forfeited or deemed to have been relinquished within ------------- from the date on which it becomes due?",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Six month"
+            },
+            {
+                "choiceId": "C2",
+                "value": "One year"
+            },
+            {
+                "choiceId": "C3",
+                "value": "18 months"
+            }
+        ]
+    },
+    {
+        "subTopicId": 21,
+        "questionId": "55327",
+        "label": "When a medical board declared that a candidate or government servant as unfit , then what is time limit for submitting appeal?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "One month"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Two month"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Six month"
+            }
+        ]
+    }
+]

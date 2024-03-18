@@ -1,0 +1,241 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path
+      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+  </symbol>
+  <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path
+      d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+  </symbol>
+  <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path
+      d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+  </symbol>
+</svg> -->
+
+<ngx-spinner></ngx-spinner>
+<app-header></app-header>
+<div class="container-fluid mt-5">
+  <div class="alert alert-success" *ngIf="isUSerCompletedTest && questionsService.loggedInUser.username !='demouser'"
+    role="alert">
+    <div>
+      <h4>Test Already Completed</h4>
+      <p>You have already completed this test, you can attempt a test only once.</p>
+      <p>You can buy new test access again by contacting our support email address.</p>
+      <p>Contact our support email address <b>studycenter1215@gmail.com</b> to purchase
+        <b>(Inspector Post) IP Exam Test Papers </b> of previous years at a reasonable cost.
+      </p>
+    </div>
+  </div>
+  <div class="alert alert-warning" *ngIf="isUSerCompletedTest && questionsService.loggedInUser.username =='demouser'"
+    role="alert">
+    <div>
+      <h4>Free Trial Version</h4>
+      <p>You have logged in using the demouser, this will give you trial version with limited set of questions from each
+        paper.</p>
+      <p>This test is not available in trail version, buy paid version access this test.</p>
+      <p>Contact our support email address <b>studycenter1215@gmail.com</b> to purchase
+        <b>(Inspector Post) IP Exam tests</b> at a 99 INR.
+      </p>
+      <div class="col-md-6 p-4 col-sm-12 d-md-block">
+        <img style="width: 80%;" src="assets\images\image_payment.PNG" alt=" MCQ Test for Programming Interviews">
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<div id="no-copy" class="container-fluid mt-5" *ngIf="!isUSerCompletedTest && questions">
+  <div *ngIf="!showResults">
+    <div class="d-flex justify-content-center row">
+      <div class="col-sm-9">
+        <div style="text-align: end;">
+          <label class="mt-3 ml-2 mb-2"><i class="fa fa-clock-o fa-lg"></i> Time Spent : {{counter |
+            formatTime}}</label>
+        </div>
+        <!--    <div class="alert alert-warning d-flex align-items-center" role="alert"
+          *ngIf="getQuestionsStatusTotal('notAnswered') == 0 || getQuestionsStatusTotal('notAnsweredReview') !=0"
+          style="margin-top: 0rem">
+          <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:">
+            <use xlink:href="#exclamation-triangle-fill" />
+          </svg>
+          <div>
+            Please complete all questions before submiting the test.
+          </div>
+        </div> -->
+        <div class="border">
+          <div class="question bg-white p-3 border-bottom">
+            <div class="d-flex flex-row justify-content-between align-items-center mcq">
+              <h4>{{testName}}</h4><span>({{currentQuestionIndex+1 > questions.length ? currentQuestionIndex :
+                currentQuestionIndex+1 }} of {{questions.length}})</span>
+            </div>
+          </div>
+          <app-question-form [question]="questions[currentQuestionIndex]" (onChoiceMade)="updateChoice($event)">
+          </app-question-form>
+          <div class="d-flex flex-row justify-content-between align-items-center p-3 bg-white">
+            <div>
+              <button [hidden]="currentQuestionIndex==0" (click)="previousQuestion()"
+                class="btn btn-primary border-danger btn-danger" type="button">
+                Previous</button>
+            </div>
+            <div>
+              <button (click)="submitResponses()" class="btn btn-warning" type="button">Submit Test</button>
+            </div>
+            <div>
+              <button (click)="nextOrViewResults()" class="btn btn-primary border-success btn-success" type="button">
+                Next</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="mt-2 d-flex justify-content-between">
+          <div class="mr-auto"><a href="javascript:void(0)" (click)="clearResponse()">Clear Response</a></div>
+          <div><a href="javascript:void(0)" (click)="skipQuestion()">Mark for Review</a></div>
+        </div>
+        <div class="mt-2 d-flex justify-content-center">
+          <a href="javascript:void(0)" (click)="triggerModal(modalData)">Report an Issue</a>
+        </div>
+      </div>
+
+      <div class="col-sm-3 p-0 right-pallete mt-5">
+        <div class="row right-pallete-footer" style="border:dotted">
+          <div class="col-md-12 legends-wrapper p-0">
+            <div class="w-50 legend">
+              <img src="../../assets/icons/not-visited.png">
+              <p>Not Visited</p>
+              <div class="legend-value">
+                <span style="color: black;">{{getQuestionsStatusTotal('notVisited')}}</span>
+              </div>
+            </div>
+            <div class="w-50 legend">
+              <img src="../../assets/icons/not-answered.png">
+              <span>Not Answered</span>
+              <div class="legend-value">
+                <span>{{getQuestionsStatusTotal('notAnswered')}}</span>
+              </div>
+            </div>
+            <div class="w-50 legend">
+              <img src="../../assets/icons/answered.png">
+              <p>Answered</p>
+              <div class="legend-value">
+                <span>{{getQuestionsStatusTotal('answered')}}</span>
+              </div>
+            </div>
+            <div class="w-50 legend">
+              <img src="../../assets/icons/not-answered-review.png">
+              <span>Marked for Review</span>
+              <div class="legend-value">
+                <span>{{getQuestionsStatusTotal('notAnsweredReview')}}</span>
+              </div>
+            </div>
+            <div class="w-100 legend">
+              <img src="../../assets/icons/answered-review.png">
+              <p>Answered &amp; Marked for Review</p>
+              <div class="legend-value">
+                <span>{{getQuestionsStatusTotal('answeredReview')}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row question-pallete">
+          <div class="col-md-12 p-2">
+            <div class="section-questions">
+              <div *ngFor="let q of questions; let i = index;" class="question-number-box"
+                [ngClass]="q.status ==='notVisited' ? 'nta-legend-not-visited' : q.status ==='answered' ? 'nta-legend-answered' : q.status === 'notAnswered' ? 'nta-legend-not-answered' : q.status === 'notAnsweredReview' ? 'nta-legend-not-answered-review' : 'nta-legend-answered-review' "
+                id="question-number-i" (click)="showQuestion(i)">
+                <span>{{('0' + (i+1)).slice(-2)}}</span>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-results *ngIf="showResults" [testName]="testName" [answers]="answers" [questions]="questions" [timeSpent]="timeSpent"
+  [testId]="topic.filename"></app-results>
+
+<ng-template #modalData let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" style="font-size: 18px;">Report an issue</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <div class="alert alert-success" *ngIf="issueSubmitSuccess" role="alert">
+      Issue has been reported successfully!
+    </div>
+    <form [formGroup]="reportIssueForm" class="needs-validation">
+      <div class="row">
+        <div class="col mb-4 has-validation">
+          <input type="text" class="form-control" ngbAutofocus id="issueSummary" aria-describedby="emailHelp"
+            placeholder="Issue Summary" formControlName="summary" required>
+          <div class="invalid-feedback">
+            Please fill out this field.
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col has-validation">
+          <textarea class="form-control" id="description" rows="3" placeholder="Description"
+            formControlName="description" required></textarea>
+          <div class="invalid-feedback">
+            Please fill out this field.
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <div class="modal-footer">
+    <button *ngIf="!issueSubmitSuccess" type="button" class="btn btn-primary border-success btn-success"
+      (click)="submitIssue()">Submit</button>
+    <button *ngIf="issueSubmitSuccess" type="button" class="btn btn-secondary"
+      (click)="modal.dismiss('Cross click')">Close</button>
+  </div>
+</ng-template>
+
+<ng-template #submitModal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" style="font-size: 18px;">Submit Test</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="this.modalService.dismissAll()"></button>
+  </div>
+  <div class="modal-body">
+    <h6>Please complete all questions before submitting the test.</h6>
+    <div class="table-responsive">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><img src="../../assets/icons/not-visited.png"></td>
+            <td>Not Visited</td>
+            <td>{{getQuestionsStatusTotal('notVisited')}}</td>
+          </tr>
+          <tr>
+            <td><img src="../../assets/icons/not-answered.png"></td>
+            <td>Not Answered</td>
+            <td>{{getQuestionsStatusTotal('notAnswered')}}</td>
+          </tr>
+          <tr>
+            <td><img src="../../assets/icons/answered.png"></td>
+            <td>Answered</td>
+            <td>{{getQuestionsStatusTotal('answered')}}</td>
+          </tr>
+          <tr>
+            <td><img src="../../assets/icons/not-answered-review.png"></td>
+            <td>Marked for Review</td>
+            <td>{{getQuestionsStatusTotal('notAnsweredReview')}}</td>
+          </tr>
+          <tr>
+            <td><img src="../../assets/icons/answered-review.png"></td>
+            <td>Answered &amp; Marked for Review</td>
+            <td>{{getQuestionsStatusTotal('answeredReview')}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="this.modalService.dismissAll()">Close</button>
+  </div>
+</ng-template>

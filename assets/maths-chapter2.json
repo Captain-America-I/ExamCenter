@@ -1,0 +1,127 @@
+[
+	{
+		"subTopicId": 7,
+		"questionId": "61501",
+		"label": "Maths - Chapter - 2: Question 1",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Option 1"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Option 2"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Option 3"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Option 4"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "35466",
+		"label": "Maths - Chapter - 2: Question 2",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Option 1"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Option 2"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Option 3"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Option 4"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "60788",
+		"label": "Maths - Chapter - 2: Question 3",
+		"correctChoiceId": "C1",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Option 1"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Option 2"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Option 3"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Option 4"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "93659",
+		"label": "Maths - Chapter - 2: Question 4",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Option 1"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Option 2"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Option 3"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Option 4"
+			}
+		]
+	},
+	{
+		"subTopicId": 7,
+		"questionId": "79930",
+		"label": "Maths - Chapter - 2: Question 5",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Option 1"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Option 2"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Option 3"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Option 4"
+			}
+		]
+	}
+]

@@ -1,0 +1,22 @@
+<div class="question bg-white p-3 border-bottom">
+  <h5 class="text-danger">Question. {{question.qNo}}&nbsp;</h5>
+  <div class="d-flex flex-row align-items-center question-title">
+    <h3 class="text-danger">&nbsp;</h3>
+    <h5 class="mt-1">{{question.label}}</h5>
+  </div>
+  <!-- uncommment below code for image as question -->
+  <!-- <div *ngIf="question.program" class=" d-flex flex-row align-items-center question-title">
+    <div class="mt-1 ml-2 mb-2">
+      <h3 class="text-danger">Q.{{question.qNo}}</h3>
+      <img style="margin-left: 1.5rem; width: 90%;" src='data:image/png;base64,{{question.label}}' />
+    </div>
+  </div> -->
+  <form [formGroup]="form" style="margin-left: -2em;">
+    <div class="ans" *ngFor="let choice of question.choices">
+      <div class="radio-toolbar">
+        <input type="radio" formControlName="choice" id="{{choice.value}}" [value]="choice">
+        <label class="mt-1 mb-2" for="{{choice.value}}">{{choice.value}}</label>
+      </div>
+    </div>
+  </form>
+</div>

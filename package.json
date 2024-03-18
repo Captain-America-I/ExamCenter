@@ -1,0 +1,33 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"build": "webpack --config webpack.config.js",
+		"dev": "nodemon ./server.js localhost 3080",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Study Center",
+	"license": "ISC",
+	"devDependencies": {
+		"del": "^6.0.0",
+		"fancy-log": "^1.3.3",
+		"gulp": "^4.0.2",
+		"gulp-zip": "^5.1.0",
+		"nodemon": "^2.0.7",
+		"webpack": "^5.47.1",
+		"webpack-cli": "^4.7.2",
+		"webpack-node-externals": "^3.0.0",
+		"webpack-stream": "^6.1.2"
+	},
+	"dependencies": {
+		"compression": "^1.7.4",
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"moment-timezone": "^0.5.33",
+		"multer": "^1.4.3",
+		"sqlite3": "^5.0.2"
+	}
+}

@@ -1,0 +1,44 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="container mt-5">
+    <div>
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-12">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+                                <thead *ngIf="dataLoaded">
+                                    <tr>
+                                        <th>UUID</th>
+                                        <th>Test Id</th>
+                                        <th>Timestamp</th>
+                                        <th>Questions Attempted</th>
+                                        <th>Test Complete</th>
+                                        <th>Time Taken</th>
+                                        <th>Correct Answers</th>
+                                        <th>Percentage</th>
+                                        <th>Rating</th>
+                                    </tr>
+                                </thead>
+                                <tbody *ngIf="dataLoaded">
+                                    <tr *ngFor="let user of demoUserTestAudit">
+                                        <td>{{user.UUID}}</td>
+                                        <td>{{user.TEST_ID}}</td>
+                                        <td>{{user.TIMESTAMP}}</td>
+                                        <td>{{user.QUESTIONS_ATTEMPTED}}</td>
+                                        <td>{{user.IS_TEST_COMPLETE}}</td>
+                                        <td>{{user.TIME_TAKEN | formatTime}}</td>
+                                        <td>{{user.CORRECT_ANSWERS}}</td>
+                                        <td>{{user.PERCENTAGE}}</td>
+                                        <td>{{user.RATING}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,180 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="container-fluid mt-5">
+    <div>
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-12">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="alert alert-success" role="alert" *ngIf="showNotificationFlag">
+                                {{notificationMsg}}
+                            </div>
+                            <div class="alert alert-danger" role="alert" *ngIf="showNotificationErrorFlag">
+                                {{notificationMsg}}
+                            </div>
+                            <h5>Tuition Details</h5>
+                            <form [formGroup]="tuitionDetailsForm">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="tuitionId">Tuition Id</label>
+                                            <input type="text" autocomplete="off"
+                                                [ngClass]="{ 'is-invalid': submitted && tuitionDetailsForm.controls.tuitionId.errors }"
+                                                maxlength="40" class="form-control" formControlName="tuitionId"
+                                                id="tuitionId">
+                                            <div *ngIf="submitted && tuitionDetailsForm.controls.tuitionId.errors"
+                                                class="invalid-feedback">
+                                                <div *ngIf="tuitionDetailsForm.controls.tuitionId.errors.required">
+                                                    Tuition Id is
+                                                    required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="tuitionName">Tuition Name</label>
+                                            <input type="text" autocomplete="off"
+                                                [ngClass]="{ 'is-invalid': submitted && tuitionDetailsForm.controls.tuitionName.errors }"
+                                                maxlength="40" class="form-control" formControlName="tuitionName"
+                                                id="tuitionName" />
+                                            <div *ngIf="submitted && tuitionDetailsForm.controls.tuitionName.errors"
+                                                class="invalid-feedback">
+                                                <div *ngIf="tuitionDetailsForm.controls.tuitionName.errors.required">
+                                                    Tuition Name
+                                                    is required
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="ownerName">Owner Name</label>
+                                            <input type="text" autocomplete="off"
+                                                [ngClass]="{ 'is-invalid': submitted && tuitionDetailsForm.controls.ownerName.errors }"
+                                                class="form-control" formControlName="ownerName" id="ownerName" />
+                                            <div *ngIf="submitted && tuitionDetailsForm.controls.ownerName.errors"
+                                                class="invalid-feedback">
+                                                <div *ngIf="tuitionDetailsForm.controls.ownerName.errors.required">Owner
+                                                    name is
+                                                    required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="email">Email</label>
+                                            <input type="text" formControlName="email" class="form-control" id="email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="address1">Address Line 1</label>
+                                            <input type="text" formControlName="address1" class="form-control"
+                                                id="address1">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="address2">Address Line 2</label>
+                                            <input type="text" class="form-control" formControlName="address2"
+                                                id="address2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="city">City</label>
+                                            <input type="text" formControlName="city" class="form-control" id="city">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="state">State</label>
+                                            <input type="text" class="form-control" formControlName="state" id="state">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="mobile">Mobile</label>
+                                            <input type="text" formControlName="mobileNo" class="form-control"
+                                                id="mobile">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="studentLimit">Student Limit</label>
+                                            <input type="text" class="form-control" formControlName="studentLimit"
+                                                id="studentLimit">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-success m-2"
+                                        (click)="addTuition()">Add</button>
+                                    <button type="submit" class="btn btn-primary m-2"
+                                        (click)="updateTuition()">Update</button>
+                                    <button type="submit" class="btn btn-danger m-2"
+                                        (click)="deleteTuition()">Delete</button>
+                                    <button type="submit" class="btn btn-secondary m-2"
+                                        (click)="resetDetails()">Reset</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-12">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+                                <thead>
+                                    <tr>
+                                        <th>Tuition Id</th>
+                                        <th>Tuition Name</th>
+                                        <th>Owner Name</th>
+                                        <th>City</th>
+                                        <th>Email</th>
+                                        <th>Mobile No</th>
+                                        <th>Student Limit</th>
+                                        <th>Last Update Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr (click)="onTableRowSelect(tuition)" *ngFor="let tuition of tuitionDetails">
+                                        <td>{{tuition.TUITION_ID}}</td>
+                                        <td>{{tuition.TUITION_NAME}}</td>
+                                        <td>{{tuition.OWNER_NAME}}</td>
+                                        <td>{{tuition.CITY}}</td>
+                                        <td>{{tuition.EMAIL}}</td>
+                                        <td>{{tuition.MOBILE_NO}}</td>
+                                        <td>{{tuition.STUDENT_LIMIT}}</td>
+                                        <td>{{tuition.LAST_UPDATED_DATE}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

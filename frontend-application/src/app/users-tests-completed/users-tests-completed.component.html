@@ -1,0 +1,37 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="container-fluid mt-5">
+    <div>
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-8">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row mb-5">
+                        <p for="typeahead-focus">Search for a User:</p>
+                        <input id="typeahead-focus" type="text" class="form-control" [(ngModel)]="selectedUser"
+                            [ngbTypeahead]="search" (focus)="focus$.next($any($event).target.value)"
+                            (click)="click$.next($any($event).target.value)" #instance="ngbTypeahead"
+                            (selectItem)="selectedItem($event)" />
+                    </div>
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table  datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+                                <thead >
+                                    <tr>
+                                        <th>Test Id</th>
+                                        <th>Timestamp</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let issue of userTestCompleted">
+                                        <td>{{issue.TEST_ID}}</td>
+                                        <td>{{issue.TIMESTAMP}}</td>
+                                    </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

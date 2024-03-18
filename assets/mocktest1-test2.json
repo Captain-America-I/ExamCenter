@@ -1,0 +1,1252 @@
+[
+    {
+        "subTopicId": 13,
+        "questionId": "85395",
+        "label": "What is the procedure for posting of inland Unregistered Parcel ?",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "It should be posted in the office letter box only."
+            },
+            {
+                "choiceId": "C2",
+                "value": "It should be handed over across the counter."
+            },
+            {
+                "choiceId": "C3",
+                "value": "It can be posted in any letter boxes"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "39379",
+        "label": "A letter posted insufficiently prepaid is charged on delivery as follow",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Single deficiency"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Not to be charged"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Double the amount of deficiency."
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "81202",
+        "label": "What are the items that can be sent by parcel post?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Anything"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Other than letter"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Anything except article the transmission of which is prohibited"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "13651",
+        "label": "Recovery of postage due on 'Green Envelope' and 'forces letter' should be done as follows:",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "No recovery will be made"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Single deficiency"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Double deficiency"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "14003",
+        "label": "What is the registration fee for inland letter ?",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 22"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs 5"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs 35"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs 17"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "45547",
+        "label": "What is the maximum weight limit for Unregistered Parcel ?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "5 KG"
+            },
+            {
+                "choiceId": "C2",
+                "value": "4 GRAMS"
+            },
+            {
+                "choiceId": "C3",
+                "value": "4 KG"
+            },
+            {
+                "choiceId": "C4",
+                "value": "2 KG"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "88446",
+        "label": "What is the insurance fee for an Article insured for Rs 5000 ?",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 299"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs 294"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs 290"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs 298"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "41999",
+        "label": "VP charges on a letter VP for Rs 45 /-",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 3/-"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs 10/-"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs 5/-"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs 2 /-"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "16478",
+        "label": "What is the minimum number of article required of prepare an insured bundle?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "2 or more"
+            },
+            {
+                "choiceId": "C2",
+                "value": "5 or more"
+            },
+            {
+                "choiceId": "C3",
+                "value": "1 or more"
+            },
+            {
+                "choiceId": "C4",
+                "value": "3 or more"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "29061",
+        "label": "Tin seal holder are to be compulsorily used for closing of ?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Insured Bag"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Packet Bag"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Parcel Bag"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Registered Bag"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "48085",
+        "label": "What is the redirection fee for an inland registered parcel weighting 4800 grams",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 81.5"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs 80"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs 88"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs 163"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "21567",
+        "label": "The manufacture and use of fictitious stamps is prohibited and it is an offence punishable under?",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Section 263 - A of post office act"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Section 263 - A of the Indian Penal Code"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Section 280 - A of the Indian Penal Code"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "46054",
+        "label": "Article addressed to deceased person are ordinarily dealt within the same manner as :",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Refused article"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Unclaimed article"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Both A and B"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "18206",
+        "label": "Post card with prepaid postage of Rs 0.25 is charged on delivery as follows",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 1.00 "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs 0.50"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Not to be charged"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "63268",
+        "label": "What is the maximum weight of a Book pocket ?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "5 KG"
+            },
+            {
+                "choiceId": "C2",
+                "value": "1 KG"
+            },
+            {
+                "choiceId": "C3",
+                "value": "35 KG"
+            },
+            {
+                "choiceId": "C4",
+                "value": "2 KG"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "12915",
+        "label": "Pattern and sample packet may not contain?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Sample of Seeds"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Samples of Drugs"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Saleable medicine"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the Above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "32598",
+        "label": "Registered newspaper bill at office of posting ( MS -85) is prepared:",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Monthly"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Annual"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Weakly"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Fortnightly"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "37009",
+        "label": "To whom the tour programme of DG { POST} for closing camp Bags will be sent?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "DG ( Post ) .New Delhi."
+            },
+            {
+                "choiceId": "C2",
+                "value": "Concerned Divisional Head"
+            },
+            {
+                "choiceId": "C3",
+                "value": "All Head of the Circle"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "40031",
+        "label": "Which copy of the MO issue journal is treated as Audit copy?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "First copy"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Second copy"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Third copy"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "90244",
+        "label": "Registration charges for foreign countries 'Bulk Bag'",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs .17"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs.70"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs. 375"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs .350"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "12440",
+        "label": "Worlds Frist stamp -------- Was issued in ---",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Scinde Dawk , 1840 in England"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Penny Black, 1840 in England"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Scinde Dawk , 1852 in India"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "31057",
+        "label": "Mint stamps are-----",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Used Stamps"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Unused Stamps"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Both A and B"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "94665",
+        "label": "'My stamps' was first introduced in India during the World Philatelic Exhibition ?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "INDIPEX-2016"
+            },
+            {
+                "choiceId": "C2",
+                "value": "INDIPEX -2012"
+            },
+            {
+                "choiceId": "C3",
+                "value": "INDIPEX-2011"
+            },
+            {
+                "choiceId": "C4",
+                "value": "INDIPEX-2014"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "86864",
+        "label": "When was 'APPU' Established ?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "1963"
+            },
+            {
+                "choiceId": "C2",
+                "value": "1973"
+            },
+            {
+                "choiceId": "C3",
+                "value": "1961"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "24990",
+        "label": "Exchange of Money Orders, Postal Orders and Cash on Delivery items in Foreign post governed by",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Special Bilateral agreement."
+            },
+            {
+                "choiceId": "C2",
+                "value": "Universal Postal Union Parcel post Agreement"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Universal Postal Convention "
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "86428",
+        "label": "Undelivered foreign mail is return by :",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Surface"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Air, If the sender specifically requested by and ready to bear the charges"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Both A and B"
+            },
+            {
+                "choiceId": "C4",
+                "value": "No need to return"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "68201",
+        "label": "What are the dimension of privately Manufactured foreign post card to be sent from India:",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Max:105*148 mm and Min; 90*140 mm"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Max:100*148 mm and Min; 90*140 mm"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Max:105*148 mm and Min; 90*150 mm"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Max:90*148 mm and Min; 90*140 mm"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "96023",
+        "label": "The application for the Bulk Bag facility for despatch to foreign countries should be made to",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Head Of the Circle"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Divisional Superintendent"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Postmaster"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Directorate"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "18771",
+        "label": "The sender of foreign article may obtain a document as proof of delivery by paying the requisite additional fee in the form----------",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Acknowledgement"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Acquittance of Delivery"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Advice of Delivery"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Proof of Delivery"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "36720",
+        "label": "International tracked packed up to --",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "1 KG"
+            },
+            {
+                "choiceId": "C2",
+                "value": "2 KG"
+            },
+            {
+                "choiceId": "C3",
+                "value": "0.5 KG"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "95598",
+        "label": "The compensation to be paid in respect of international parcels booked in post offices in India in case of loss/ total theft /total damage ",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Up to 40 SDR per parcel and 4.50 SDR per Kg"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Up to 45 SDR per parcel and 4.50 SDR per Kg"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Up to 50 SDR per parcel and 4.50 SDR per Kg"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Up to 300 SDR per parcel and 4.50 SDR per Kg"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "69906",
+        "label": "The general maximum weight for international Speed post is ---",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "35 KG"
+            },
+            {
+                "choiceId": "C2",
+                "value": "30 KG"
+            },
+            {
+                "choiceId": "C3",
+                "value": "20KG"
+            },
+            {
+                "choiceId": "C4",
+                "value": "10KG"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "84499",
+        "label": "A bulk customer is defined as anyone who provides Rs ----- worth of speed post business in calendar month at speed post booking office",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 100000"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs 10000"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs 50000"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs 30000"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "84746",
+        "label": "A minimum quality of ------ pieces can be accepted under the 'Direct Post'",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "1000"
+            },
+            {
+                "choiceId": "C2",
+                "value": "5000"
+            },
+            {
+                "choiceId": "C3",
+                "value": "10000"
+            },
+            {
+                "choiceId": "C4",
+                "value": "500"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "35546",
+        "label": "What is the overall celling limit In PLI scheme?",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs. Twenty lakhs"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs . Fifty lakhs"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs . Ten lakhs"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs.five lakhs"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "73457",
+        "label": "When the survival benefits of 15 years AEA polices are given ?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "After 2 After 6 years, after 9 years and after 12 years"
+            },
+            {
+                "choiceId": "C2",
+                "value": "After 2 years, after 4 years and after 6 years"
+            },
+            {
+                "choiceId": "C3",
+                "value": "After 2 years, after 6 years and after 12 yearsAfter 6 years, after 9 years and after 12 years"
+            },
+            {
+                "choiceId": "C4",
+                "value": ".None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "52321",
+        "label": "Loan can be taken in an Whole life Assurance policy provides the policy has been paid for:",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Six Years"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Four Years"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Three years"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Eight Years"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "95698",
+        "label": "What is the maximum limit of months for paying advance premium of PLI in cash at a time?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Twelve Months"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Six months"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Thirty six months"
+            },
+            {
+                "choiceId": "C4",
+                "value": "No limit."
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "77394",
+        "label": "What is the upper age limit of RPLI policies for 'Standard age proof'",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "50 Years"
+            },
+            {
+                "choiceId": "C2",
+                "value": "55 Years"
+            },
+            {
+                "choiceId": "C3",
+                "value": "45 Years"
+            },
+            {
+                "choiceId": "C4",
+                "value": "60 Years"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "41320",
+        "label": "In which date RPLI was introduced ?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "24.03.1995"
+            },
+            {
+                "choiceId": "C2",
+                "value": "24.03.1994"
+            },
+            {
+                "choiceId": "C3",
+                "value": "24.03.1990"
+            },
+            {
+                "choiceId": "C4",
+                "value": "24.03.1993"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "78639",
+        "label": "Insurance coverage period for PMJJBY to be renewed every year from ?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "01 st Aug to 31 July"
+            },
+            {
+                "choiceId": "C2",
+                "value": "01 st July to 30 June"
+            },
+            {
+                "choiceId": "C3",
+                "value": "01 st June to 31 May"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "94184",
+        "label": "What is the Annual premium for PMSBY",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs.12"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs.330"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs .320"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs .310"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "40224",
+        "label": "Insurance cover offered for PMSBY",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Accidental death"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Accidental Injury /Disablity"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Death due to any reason"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Both A and B"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "18176",
+        "label": "The minimum age of joining APY is",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "18 years and maximum age is 40 years"
+            },
+            {
+                "choiceId": "C2",
+                "value": "10 years and maximum age is 40 years"
+            },
+            {
+                "choiceId": "C3",
+                "value": "18 years and maximum age is 50 years"
+            },
+            {
+                "choiceId": "C4",
+                "value": "18 years and maximum age is 60 years"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "49013",
+        "label": "Minimum period of contribution by the subscriber under APY would be---",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "40 Years"
+            },
+            {
+                "choiceId": "C2",
+                "value": "30 Years"
+            },
+            {
+                "choiceId": "C3",
+                "value": "20 Years"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "38345",
+        "label": "The guaranteed minimum pension for the subscriber between under APY",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs .1000 and Rs 10000"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs .1000 and Rs 5000"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Rs .500 and Rs 5000"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Rs .100 and Rs 5000"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "25273",
+        "label": "IPPB launched on ?",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "01 july 2018"
+            },
+            {
+                "choiceId": "C2",
+                "value": "01 october 2018"
+            },
+            {
+                "choiceId": "C3",
+                "value": "01 September 2018"
+            },
+            {
+                "choiceId": "C4",
+                "value": "01 june 2018"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "15022",
+        "label": "India post payment bank carry out ----",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "RTGS"
+            },
+            {
+                "choiceId": "C2",
+                "value": "NEFT"
+            },
+            {
+                "choiceId": "C3",
+                "value": "IMPS"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "17574",
+        "label": "The facility of deposits and withdrawals by cheque are available ----",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "All Sub-offices"
+            },
+            {
+                "choiceId": "C2",
+                "value": "All Head Offices"
+            },
+            {
+                "choiceId": "C3",
+                "value": "ALL HOS ,SO,s and Branch offices"
+            },
+            {
+                "choiceId": "C4",
+                "value": "only A and B"
+            }
+        ]
+    },
+    {
+        "subTopicId": 13,
+        "questionId": "70503",
+        "label": "Stock register of CBS passbook of Sub-offices?",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "SB-4 (a)"
+            },
+            {
+                "choiceId": "C2",
+                "value": "SB-5"
+            },
+            {
+                "choiceId": "C3",
+                "value": "SB-5A"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    }
+]

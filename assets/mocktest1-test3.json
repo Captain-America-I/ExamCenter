@@ -1,0 +1,1248 @@
+[
+    {
+        "subTopicId": 14,
+        "questionId": "30929",
+        "label": "The Right to information bill having been passed by both houses of parliament received the assent of the president on ",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": " 15 Jun 2005 "
+            },
+            {
+                "choiceId": "C2",
+                "value": "13 Oct 2005"
+            },
+            {
+                "choiceId": "C3",
+                "value": "12 Oct 2005"
+            },
+            {
+                "choiceId": "C4",
+                "value": " None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "94226",
+        "label": "The RTI act enacted by parliament in the ",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "55th of the republic of India"
+            },
+            {
+                "choiceId": "C2",
+                "value": "56th of the republic of India"
+            },
+            {
+                "choiceId": "C3",
+                "value": "54th of the republic of India"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "73869",
+        "label": "RTI act extends to the",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Whole India except nagaland , tribal area & Jammu and Kashmir"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Whole India except nagaland , tribal area & Jammu and Kashmirs"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Whole India except Jammu and Kashmir"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Whole India"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "28325",
+        "label": "Appropriate government means in relation to a public authority which is established, constituted, owned, controlled or substantially financed by funds provided directly or indirectly by",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The Central government"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Union territory administration"
+            },
+            {
+                "choiceId": "C3",
+                "value": "All the above"
+            },
+            {
+                "choiceId": "C4",
+                "value": "The State government"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "84686",
+        "label": "Mark the correct option relating to competent authority means:-",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The president or the governor in case of constituted by or under the constitution"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Speaker in case of house of people"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Chief justice of India in case of supreme court"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "71489",
+        "label": "Information means any material in any form",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Records, documents, memos"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Opinions & advices"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Circulars, orders, reports"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "44022",
+        "label": "Record include",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Any document, manuscript and file"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Any microfilm , microfiche and facsimile copy of a document"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Any other material produced a computer or any other device"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "29061",
+        "label": "Right to information means",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Insured Bag"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Packet Bag"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Parcel Bag"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Registered Bag"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "10595",
+        "label": "Information commissions are",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Central information commission "
+            },
+            {
+                "choiceId": "C2",
+                "value": "District information commission "
+            },
+            {
+                "choiceId": "C3",
+                "value": "State information commission"
+            },
+            {
+                "choiceId": "C4",
+                "value": "A& B only"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "70000",
+        "label": "A person other than the citizen making a request to information and includes a public authority ",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Complainant "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Consumer"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Third party "
+            },
+            {
+                "choiceId": "C4",
+                "value": "A&B"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "62958",
+        "label": "Every public authority shall designate as many officers as",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "State public information officer"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Central information officer"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Central public information officerc)State public information officer"
+            },
+            {
+                "choiceId": "C4",
+                "value": "B&C only"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "64615",
+        "label": "Every public authority shall designate an officer at each sub divisional level",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Central Asst. public information officers/State Asst. public information officer"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Central information/State information officer"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Central public information officer/State public information officer"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "64443",
+        "label": "Under RTI act the language of an application may be",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "In English"
+            },
+            {
+                "choiceId": "C2",
+                "value": "In Regional language "
+            },
+            {
+                "choiceId": "C3",
+                "value": "All the above "
+            },
+            {
+                "choiceId": "C4",
+                "value": "In Hindi"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "97369",
+        "label": "Request for obtaining information the application is being made to ",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Request for obtaining information the application is being made to "
+            },
+            {
+                "choiceId": "C2",
+                "value": "The central Asst public information officer/State Asst. public information officer"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Either A&B as the case may be"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "85381",
+        "label": "An applicant making request for information",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Should be give the reason why the information sought for"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Shall not be give any reason for requesting the information or any other personal details except those that may be necessary for contacting him."
+            },
+            {
+                "choiceId": "C3",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "31621",
+        "label": "Where an application is made to a public authority requesting for an information which is held by another public authority, or the subject matter of which is more closely connected with the functions of another public authority the application shall be transferred to the concerned authority not latter than____ of receipt of the application.",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "30 day"
+            },
+            {
+                "choiceId": "C2",
+                "value": "10 days"
+            },
+            {
+                "choiceId": "C3",
+                "value": "3 day"
+            },
+            {
+                "choiceId": "C4",
+                "value": "5 day"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "46576",
+        "label": "The request information should normally be made within ",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "48 Hrs"
+            },
+            {
+                "choiceId": "C2",
+                "value": "24 Hrs"
+            },
+            {
+                "choiceId": "C3",
+                "value": "30 days"
+            },
+            {
+                "choiceId": "C4",
+                "value": "45 days"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "90247",
+        "label": "The information sought for concerns the life or liberty of a person, the same shall be provided within_____ of receipt of the application",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "48 Hrs "
+            },
+            {
+                "choiceId": "C2",
+                "value": "72 Hrs"
+            },
+            {
+                "choiceId": "C3",
+                "value": "24 Hrs"
+            },
+            {
+                "choiceId": "C4",
+                "value": "At the same time "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "74205",
+        "label": "If the information central/state public information office as the case may be fails to give decision within the period 30 days",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Shall be deemed to have transferred the application to higher authority"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Should be wait for another thirty days"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Shall be deemed to have refused the request"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "28851",
+        "label": "Mark the correct option",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Where the access to information is to be provided in the printed or in any electronic format, the applicant shall pay such fee as may be prescribed"
+            },
+            {
+                "choiceId": "C2",
+                "value": "No such fee shall be charged from the persons whore are below poverty line "
+            },
+            {
+                "choiceId": "C3",
+                "value": "Before taking the decision consideration of third party representation is necessary "
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "36448",
+        "label": "The following information's are exemption from disclosure",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Information disclosure of which would prejudicially affect the sovereignty and integrity of India"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Information which has been expressly forbidden to be published by any courtof law or tribunal."
+            },
+            {
+                "choiceId": "C3",
+                "value": "Information the disclosure of which would cause a breach of privilege of parliament or the state legislature"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "56597",
+        "label": "Third party shall be made his representation within",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "5 days"
+            },
+            {
+                "choiceId": "C2",
+                "value": "10 days"
+            },
+            {
+                "choiceId": "C3",
+                "value": "45 days"
+            },
+            {
+                "choiceId": "C4",
+                "value": "3 days"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "99321",
+        "label": "Constitution of central information commission the central government shall be made by",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Notification "
+            },
+            {
+                "choiceId": "C2",
+                "value": "Circular"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Notification by official gazette"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "39669",
+        "label": "The central information commission shall consist of",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The chief information commissioner"
+            },
+            {
+                "choiceId": "C2",
+                "value": "The chief information commissioner"
+            },
+            {
+                "choiceId": "C3",
+                "value": "All of these"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "30705",
+        "label": "The chief information/Information commissioner shall be appointed by",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The president on the recommendation of the a committee"
+            },
+            {
+                "choiceId": "C2",
+                "value": "The president of India"
+            },
+            {
+                "choiceId": "C3",
+                "value": "The chief justice of India"
+            },
+            {
+                "choiceId": "C4",
+                "value": "The prime minister of India"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "41040",
+        "label": "The CIC/IC appointing recommendation committee consisting",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The president of India"
+            },
+            {
+                "choiceId": "C2",
+                "value": "The prime minister who shall be chairperson"
+            },
+            {
+                "choiceId": "C3",
+                "value": "The leader of opposition party in the lok sabha "
+            },
+            {
+                "choiceId": "C4",
+                "value": "Above B,C&D only"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "81087",
+        "label": "Mark the incorrect option relating to the knowledge and experience of the CIC/IC",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Mark the incorrect option relating to the knowledge and experience of the CIC/IC"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Social service & management"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Journalism , mass media"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Cinema and Politics "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "21219",
+        "label": "Mark the correct option",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The CIC/IC shall hold office for a term 5 years"
+            },
+            {
+                "choiceId": "C2",
+                "value": "CIC shall not be eligible to reappointment."
+            },
+            {
+                "choiceId": "C3",
+                "value": "No CIC shall hold office as such after he has attained the age of 65 years"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "45406",
+        "label": "The CIC/IC his resignation letter should be made to",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "The chief justice of India"
+            },
+            {
+                "choiceId": "C2",
+                "value": "The prime minister"
+            },
+            {
+                "choiceId": "C3",
+                "value": "The president"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Any one of them "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "61860",
+        "label": "State information shall consist",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "State chief information commissioner and 5 state information commissioner"
+            },
+            {
+                "choiceId": "C2",
+                "value": "State chief information commissioner and 2 state information commissioner"
+            },
+            {
+                "choiceId": "C3",
+                "value": "The state chief information commissioner and not more than 10 state information commissioner"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "90220",
+        "label": "The first appeal should be lie under RTI Act after",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "45 days"
+            },
+            {
+                "choiceId": "C2",
+                "value": "60 days"
+            },
+            {
+                "choiceId": "C3",
+                "value": "90 days"
+            },
+            {
+                "choiceId": "C4",
+                "value": "30 days"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "90158",
+        "label": "Under which section of RTI act information is giver",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Sec. 4"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Sec. 3"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Sec. 6"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Sec 13"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "32604",
+        "label": "Which of the following has not been defined under Sec. 2 of the RTI Act",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Central Asst public information officer."
+            },
+            {
+                "choiceId": "C2",
+                "value": "Central information officer"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Public authority"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Judge"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "76866",
+        "label": "A second appeal against decision shall lie within ",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "30 days "
+            },
+            {
+                "choiceId": "C2",
+                "value": "60 days"
+            },
+            {
+                "choiceId": "C3",
+                "value": "90 day"
+            },
+            {
+                "choiceId": "C4",
+                "value": "45 days "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "14287",
+        "label": "An appeal under sub section 1 or 2 of 19 shall be disposed of within thirty day of the receipt of the appeal or within such extended period not exceeding a total of _____ days form the date of filing thereof , as the case may be, for reasons to be recorded in writing.",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "60"
+            },
+            {
+                "choiceId": "C2",
+                "value": "13"
+            },
+            {
+                "choiceId": "C3",
+                "value": "45"
+            },
+            {
+                "choiceId": "C4",
+                "value": "15"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "74993",
+        "label": "The public information officers liable to be impose a monitory penalty for ",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Without any reason refused to receive an application for information or has not been furnished the information within the time specified"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Malafidely denied the request for information or knowingly given incorrect, incomplete or misleading information or destroyed information which was the subject of the request"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Both A&B"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "75318",
+        "label": "The penalty shall be imposed to Central/State public information officer is",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 225/- each day till application is received or information furnished"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Rs 250/- each day till application is received or information furnished."
+            },
+            {
+                "choiceId": "C3",
+                "value": "The total amount of penalty shall not exceed Rs 25000/-"
+            },
+            {
+                "choiceId": "C4",
+                "value": "B&C both"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "62687",
+        "label": "A request for obtaining information under RTI act the application fee is Rs",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "25/"
+            },
+            {
+                "choiceId": "C2",
+                "value": "50/"
+            },
+            {
+                "choiceId": "C3",
+                "value": "75/"
+            },
+            {
+                "choiceId": "C4",
+                "value": "10/"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "23763",
+        "label": "The application fee may be accepted in shape of____ payable to",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Cash/Account officer of the public authority"
+            },
+            {
+                "choiceId": "C2",
+                "value": "DD/Cheque / Account officer of the public authority"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Indian Postal Order / Account officer of the public authority"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Any one of the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "90593",
+        "label": "Mark the correct option relating to fee for obtain information under RTI act",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Rs 2/- per each page (A4/A3 size paper) created or copied"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Actual charge or cost price of a copy in large size paper"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Actual cost or price for samples or models"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "60746",
+        "label": "Information provided in diskette or floppy Rs_____ chargeable per diskette/floppy.",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "25/-"
+            },
+            {
+                "choiceId": "C2",
+                "value": "50/-"
+            },
+            {
+                "choiceId": "C3",
+                "value": "20/-"
+            },
+            {
+                "choiceId": "C4",
+                "value": "free"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "73573",
+        "label": "The first state in India introduce the a law on RTI was",
+        "correctChoiceId": "C1",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Tamilnadu"
+            },
+            {
+                "choiceId": "C2",
+                "value": "UP"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Maharashtra"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "94062",
+        "label": "How many schedule in RTI Act 2005 ",
+        "correctChoiceId": "C2",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "5"
+            },
+            {
+                "choiceId": "C2",
+                "value": "2"
+            },
+            {
+                "choiceId": "C3",
+                "value": "3"
+            },
+            {
+                "choiceId": "C4",
+                "value": "4"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "61191",
+        "label": "Indian citizen have the right to information because of",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Judgment of Supreme court"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Implementation of international laws by Indian govt"
+            },
+            {
+                "choiceId": "C3",
+                "value": "All states adopted agree to implement the act"
+            },
+            {
+                "choiceId": "C4",
+                "value": "A law passed by the parliament of India"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "66485",
+        "label": "How could a public information officer receive applications?",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Those submitted by a requester in hand"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Those sent by an applicant by email/ by post"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Transferred by another public authority"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "93467",
+        "label": "A first appeal against the decision of a PIO can be preferred by",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "An applicant"
+            },
+            {
+                "choiceId": "C2",
+                "value": "A person from within public authority"
+            },
+            {
+                "choiceId": "C3",
+                "value": "A person outside the public authority to whom information pertains"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "48634",
+        "label": "While inquiring into a complaint information commissions have the power to",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Receive evidence on affidavit"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Requisition record or copies thereof from any court or office"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Requisition record or copies thereof from any court or office"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above "
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "73427",
+        "label": "The first appellate authority should decide on first appeals",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Within the 30 days from the receipt of the firs appeals"
+            },
+            {
+                "choiceId": "C2",
+                "value": "In less number of days that the PIO concerned took to take a decision on the application."
+            },
+            {
+                "choiceId": "C3",
+                "value": "Within 45 days from the date of receipt of the appeal , if reasons are recorded"
+            },
+            {
+                "choiceId": "C4",
+                "value": "Both A&C"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "82246",
+        "label": "If a PIO reasonably non exempted portions of a record from exempted portions and partially provides information to an applicant he/she has to",
+        "correctChoiceId": "C4",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "Give the name and designation of the person giving the decision"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Reasons for the decision"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Applicants rights for a review of the decision"
+            },
+            {
+                "choiceId": "C4",
+                "value": "All the above"
+            }
+        ]
+    },
+    {
+        "subTopicId": 14,
+        "questionId": "33450",
+        "label": "The first schedule of the RTI act 2005 is ",
+        "correctChoiceId": "C3",
+        "answerExplanation": "",
+        "choices": [
+            {
+                "choiceId": "C1",
+                "value": "List of exempted information"
+            },
+            {
+                "choiceId": "C2",
+                "value": "Govt order"
+            },
+            {
+                "choiceId": "C3",
+                "value": "Affirmation on oath of CIOs/ IOs"
+            },
+            {
+                "choiceId": "C4",
+                "value": "None of these"
+            }
+        ]
+    }
+]

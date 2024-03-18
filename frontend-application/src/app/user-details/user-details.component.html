@@ -1,0 +1,83 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="container-fluid mt-5">
+    <div>
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-12">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+                                <thead *ngIf="dataLoaded">
+                                    <tr>
+                                        <th scope="col">First Name</th>
+                                        <th scope="col">Last Name</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Username</th>
+                                        <th scope="col">Password</th>
+                                        <th scope="col">Created On</th>
+                                        <th scope="col">Last Login On</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody *ngIf="dataLoaded">
+                                    <tr *ngFor="let user of userDetails">
+                                        <td>{{user.firstname}}</td>
+                                        <td>{{user.lastname}}</td>
+                                        <td>{{user.mobile}}</td>
+                                        <td>{{user.username}}</td>
+                                        <td>{{user.password}}</td>
+                                        <td>{{user.timestamp}}</td>
+                                        <td>{{user.last_login_timestamp}}</td>
+                                        <td><a href="javascript:void(0)" (click)="viewUser(user)">View</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #viewUserDetails>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title" style="font-size: 18px;">User Details</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="this.modalService.dismissAll()"></button>
+    </div>
+    <div class="modal-body">
+        <div class="alert alert-success" *ngIf="removeDeviceKeySuccess" role="alert">
+            Device Key removed successfully!
+        </div>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <th scope="row">First Name</th>
+                    <td>{{slectedUser.firstname}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Last Name</th>
+                    <td>{{slectedUser.lastname}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Username</th>
+                    <td>{{slectedUser.username}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Last Login On</th>
+                    <td>{{slectedUser.last_login_timestamp}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <button *ngIf="slectedUser.cookie && slectedUser.cookie != ''" type="button" class="btn btn-secondary mt-3"
+            (click)="removeDeviceKey(slectedUser.username)">Remove
+            Device Key</button>
+        <span *ngIf="slectedUser.cookie === null || slectedUser.cookie == ''">User has not yet logged in with any
+            device</span>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="this.modalService.dismissAll()">Close</button>
+    </div>
+</ng-template>

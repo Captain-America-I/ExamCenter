@@ -1,0 +1,66 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid ">
+        <a class="navbar-brand mb-0 h1"><img src="assets/images/puzzle.png">Exam Center</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </div>
+    </div>
+</nav>
+<ngx-spinner></ngx-spinner>
+
+<body id="LoginForm">
+    <div class="content">
+        <div class="container">
+            <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12 ">
+                <div class="row mt-5" style="background-color: aliceblue;">
+                    <!-- form -->
+                    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                        <div class="login-form">
+                            <div class="panel">
+                                <h2>Admin Login</h2>
+                                <br>
+                            </div>
+                            <div class="main-div">
+
+                                <div *ngIf="invalidCredientials" class="alert alert-danger" role="alert">
+                                    Error : Invalid username or password
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" autocomplete="off"
+                                        [ngClass]="{ 'is-invalid': submitted && f.username.errors }"
+                                        class="form-control" formControlName="username" id="username"
+                                        placeholder="Username" />
+                                    <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                                        <div *ngIf="f.username.errors.required">Username is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" autocomplete="off" formControlName="password"
+                                        class="form-control"
+                                        [ngClass]="{ 'is-invalid': submitted && f.password.errors }" id="password"
+                                        placeholder="Password" />
+                                    <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                                        <div *ngIf="f.password.errors.required">Password is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tuitionId" autocomplete="off" formControlName="tuitionId"
+                                        class="form-control"
+                                        [ngClass]="{ 'is-invalid': submitted && f.tuitionId.errors }" id="tuitionId"
+                                        placeholder="Tuition Id" />
+                                    <div *ngIf="submitted && f.tuitionId.errors" class="invalid-feedback">
+                                        <div *ngIf="f.tuitionId.errors.required">Tuition Id is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- /.form -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

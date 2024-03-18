@@ -1,0 +1,56 @@
+body {
+  background-color: #eee
+}
+
+.ans {
+  margin-left: 36px !important
+}
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important
+}
+
+.btn:active {
+  outline: 0 !important;
+  box-shadow: none !important
+}
+
+//@at-root
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+  display: inline-block;
+  background-color:#fff;
+  border: 1px solid grey;
+  padding: 10px 20px;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  margin-top: 7px;
+  border-radius: 4px;
+  width: -webkit-fill-available;
+  color: black;
+  cursor: pointer;
+  //text-transform: uppercase;
+}
+
+
+.radio-toolbar input:checked+label {
+  background-color: rgb(179, 219, 236);
+  color: black;
+  border: 2px solid rgb(32, 205, 211);
+}
+
+.radio-toolbar input[type="radio"]:focus+label {
+  background-color: rgb(179, 219, 236);
+  color: black;
+  border: 2px solid rgb(32, 205, 211);
+}
+
+.radio-toolbar label:hover {
+  background-color: rgb(179, 219, 236);
+}

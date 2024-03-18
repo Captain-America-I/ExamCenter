@@ -1,0 +1,157 @@
+<ngx-spinner></ngx-spinner>
+<app-tution-header></app-tution-header>
+<!-- <div class="container">
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card1.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card2.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card3.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card1.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card2.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card3.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card1.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card2.JPG" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="assets/images/{{tuitionService.tuitionId}}/card3.JPG" height="100" width="250" alt="" />
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="content">
+    <div class="container">
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12 ">
+                    <div class="box-body-login">
+                        <div class="row" style="background-color: aliceblue;">
+                            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 mb20">
+                                <h3 class="mb10">Login</h3>
+                            </div>
+                            <!-- form -->
+                            <form [formGroup]="loginForm" (ngSubmit)="onSubmit(false)">
+                                <div *ngIf="invalidCredientials" class="alert alert-danger" role="alert">
+                                    Error : Invalid username or password
+                                </div>
+                                <div *ngIf="submitted && f.username.errors" style="color:red">
+                                    <div *ngIf="f.username.errors.required">Username is required</div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <label class="control-label sr-only" for="username"></label>
+                                        <div class="login-input">
+                                            <input id="username" autocomplete="off" name="username" type="text"
+                                                formControlName="username" class="form-control"
+                                                placeholder="Enter your username" required>
+                                            <div class="login-icon"><i class="fa fa-user"></i></div>
+                                            <div *ngIf="f.username.errors" class="invalid-feedback">
+                                                <div *ngIf="f.username.errors.required">Username is required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div *ngIf="submitted && f.password.errors" style="color:red">
+                                        <div *ngIf="f.password.errors.required">Password is required</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <label class="control-label sr-only"></label>
+                                        <div class="login-input">
+                                            <input name="password" autocomplete="off" formControlName="password"
+                                                type="password" class="form-control" placeholder="Enter your password"
+                                                required>
+                                            <div class="login-icon"><i class="fa fa-lock"></i></div>
+                                            <div class="eye-icon"><i class="fa fa-eye"></i></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb20  ">
+                                    <button type="submit" class="btn btn-primary btn-block mb10">Login</button>
+                                </div>
+                            </form>
+                            <!-- /.form -->
+                        </div>
+                    </div>
+                </div>
+                <!-- features -->
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 ">
+                    <div class="box-body">
+                        <div class="feature-left">
+
+                        </div>
+                        <div class="feature-left">
+                            <div class="feature-content">
+                                <h4>24X7 Online Access</h4>
+                                <p>Get online access to practice various tests</p>
+                            </div>
+                        </div>
+                        <div class="feature-left">
+                            <div class="feature-content">
+                                <h4>Practice and Improve</h4>
+                                <p>Practice tests and evaluate your performance and improve your speed and evaluate your
+                                    knowlodge.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-left">
+                            <div class="feature-content">
+                                <h4>Instant Results </h4>
+                                <p>Our smart online examination platform provides instant assessment at the end of the
+                                    tests along with time taken and percentage scored.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+
+
+
+<ng-template #newDeviceLoginModal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title" style="font-size: 18px;">Access Denied</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="this.modalService.dismissAll()"></button>
+    </div>
+    <div class="modal-body">
+        <span>Hi {{clientName}},</span><br>
+        <span>Login not allowed. You are trying to login from new device.</span>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="this.modalService.dismissAll()">Close</button>
+    </div>
+</ng-template>
+
+<ng-template #deviceConfirmModal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title" style="font-size: 18px;">Confirm Device</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="this.modalService.dismissAll()"></button>
+    </div>
+    <div class="modal-body">
+        <span>Hi {{clientName}},</span><br>
+        <span>Once you login using this device, you will not be allowed to login from any other device.</span><br>
+        <span>Do you want to proceed login from this device?</span>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="saveCookie()">Yes</button>
+        <button type="button" class="btn btn-secondary" (click)="this.modalService.dismissAll()">No</button>
+    </div>
+</ng-template>

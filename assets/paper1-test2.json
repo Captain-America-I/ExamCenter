@@ -1,0 +1,752 @@
+[
+	{
+		"subTopicId": 12,
+		"questionId": "81597",
+		"label": "For weeding old record of SCBO the following is correct",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Vouchers, Spoil Passbooks, Undeliverable Passbook and unused Cheque foils and Cheque books should be destroyed by burning"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Vouchers, Spoil Passbooks, Undeliverable Passbook and unuses Cheque foils and Chequebooks should be destroyed by shredding method"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Vouchers, Spoil passbooks, Undeliverable Passbook and unused Cheque foils and Cheque books should be destroyed by pouring acid."
+			},
+			{
+				"choiceId": "C4",
+				"value": "Vouchers, Spoil Passbooks, Undeliverable Passbook and unused Cheque foils and Cheque books should be destroyed by incrneration"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "28400",
+		"label": "Which of the following statements are correct as per Bo Rules 67? i) BPM should not tax with postage any article received from Foreign Post under any circumstances ii) BPM should tax unpaid articles that are not impressed with the postage due stamp and which the account office omitted to invoice in the BO slip with which the articles were sent iii) Should not tax the insufficiently paid articles that have been treated by the account office or dispatching offices as fully prepaid Iv) Should tax the articles that have not been charged by the dispatching office or account office with the full amount of postage due on them",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "i & ii"
+			},
+			{
+				"choiceId": "C2",
+				"value": "i, ii, & iii"
+			},
+			{
+				"choiceId": "C3",
+				"value": "i, iii, iv"
+			},
+			{
+				"choiceId": "C4",
+				"value": "i, ii, iv"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "87309",
+		"label": "When an account is contravention of rules",
+		"correctChoiceId": "C1",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "The account should be closed andamount should be refunded to the depositor without interest"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Account should be closed andamount forfeited to the Govt"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Account should be closed andamount should be refunded to the depositor with interest at SBinterest rate."
+			},
+			{
+				"choiceId": "C4",
+				"value": "Account should be kept operativeand no interest should be allowed."
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "64408",
+		"label": "Finacle command to generate different reports",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "HFTI"
+			},
+			{
+				"choiceId": "C2",
+				"value": "HCCA "
+			},
+			{
+				"choiceId": "C3",
+				"value": "HTDTRAN "
+			},
+			{
+				"choiceId": "C4",
+				"value": "HFINRPT"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "10097",
+		"label": "In case of short/excess vinterest credited in SB/PPF/SSA after getting approval from competent authority the adjustment in Finacle can be done by",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "HOPM "
+			},
+			{
+				"choiceId": "C2",
+				"value": "Two Supervisors"
+			},
+			{
+				"choiceId": "C3",
+				"value": " Incharge CPC "
+			},
+			{
+				"choiceId": "C4",
+				"value": "Supervisor, SBCO"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "59138",
+		"label": "In Finacle, during visit/inspection depositors signature can be viewed by command",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "HACLI "
+			},
+			{
+				"choiceId": "C2",
+				"value": "HACLINQ "
+			},
+			{
+				"choiceId": "C3",
+				"value": "IES "
+			},
+			{
+				"choiceId": "C4",
+				"value": "HFINRPT"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "60438",
+		"label": "When was the IPO Act last amended?",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "2015 "
+			},
+			{
+				"choiceId": "C2",
+				"value": "2009 "
+			},
+			{
+				"choiceId": "C3",
+				"value": "2002 "
+			},
+			{
+				"choiceId": "C4",
+				"value": "2017"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "95703",
+		"label": "Which of the following is explicitly incorrect of the Government Savings Bank Act 1873?",
+		"correctChoiceId": "C1",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "There is no mention of deposits made by married woman"
+			},
+			{
+				"choiceId": "C2",
+				"value": " There is a mention of Payment of deposits belonging to lunatics"
+			},
+			{
+				"choiceId": "C3",
+				"value": "There is a mention that this Act willnot apply to deposits in AnchalSavings Bank "
+			},
+			{
+				"choiceId": "C4",
+				"value": "There is a mention of nomination by depositor."
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "19823",
+		"label": "Which Act has given legal recognition of electronic signatures?",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Prevention of Money Laundering Act 2002"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Information Technology Act 2000"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Consumers Protection Act 1986"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Fifty second amendment to the IPOAct 1898"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "86263",
+		"label": "Who is a minor dependent as per the Public Provident Fund",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Person who has not yet reached the eligible age to vote"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Person who has not yet reached the eligible age to marry"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Person who is not deemed to haveattained majority under the Indian Majority Act 1875 "
+			},
+			{
+				"choiceId": "C4",
+				"value": "None of the above XOCS"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "13946",
+		"label": "Which of the following are not permitted for transmission as per the Indian Post Office Rules. ",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Osmic Acid subject to prescribed conditions"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Brains of rabid animals subject to prescribed conditions"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Live bees subject to prescribed conditions"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Cobalt 60 subject to prescribed conditions"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "85586",
+		"label": "Which of the following is true of Family Allotment Money Order",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "The commission Family Allotment Money Order is the same as Money Order"
+			},
+			{
+				"choiceId": "C2",
+				"value": "The Family Allotment Money Order can be booked in any Post Office in the Country"
+			},
+			{
+				"choiceId": "C3",
+				"value": "This is a facility being offered to defence personnel"
+			},
+			{
+				"choiceId": "C4",
+				"value": "The commission of Family Allotment Money Order is 10%"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "55076",
+		"label": "What are not the benefits of lining Post Office Savings Account and IPPB.",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Customer can manage funds through IPPB Mobile Banking Application"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Automatic transfer of funds from IPPB to Post Office Savings Account when it exceeds the limitof Rs.1 lakh"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Account holder can withdraw/deposit cash via IPPB Savings Account"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Account holder gets free doorstep delivery of cash withdrawal on working days"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "13888",
+		"label": "What is the preservation period of counter foils of pay order related to Money Order",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "2 years from the date of issue of last pay order"
+			},
+			{
+				"choiceId": "C2",
+				"value": "18 months from the date of issue of last pay order"
+			},
+			{
+				"choiceId": "C3",
+				"value": "3 years from the date of issue of last pay order"
+			},
+			{
+				"choiceId": "C4",
+				"value": "6 months from the date of issue of last pay order"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "87837",
+		"label": "The maximum length of foreign parcel is",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "0.95 Meter"
+			},
+			{
+				"choiceId": "C2",
+				"value": "1.00 Meter"
+			},
+			{
+				"choiceId": "C3",
+				"value": "1.05 Meters"
+			},
+			{
+				"choiceId": "C4",
+				"value": "1.5 Meters"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "17143",
+		"label": "Which of the following is true of the Network Integrator ",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "It has three network providers Primary, Secondary, Tertiary i.e., NSP-1, NSP-2, NSP-3"
+			},
+			{
+				"choiceId": "C2",
+				"value": "It has only one network NSP-1"
+			},
+			{
+				"choiceId": "C3",
+				"value": "It has two networks NSP-1, NSP-2."
+			},
+			{
+				"choiceId": "C4",
+				"value": "The number of network providers vary from one till five."
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "13951",
+		"label": "Where is the Primary Data Centre of the IT Modernization Project located",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Ghaziabad "
+			},
+			{
+				"choiceId": "C2",
+				"value": "Pune "
+			},
+			{
+				"choiceId": "C3",
+				"value": "Navi Mumbai "
+			},
+			{
+				"choiceId": "C4",
+				"value": "Hyderabad"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "16971",
+		"label": "DARPAN aims at computerizing",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Mail Offices"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Branch Offices "
+			},
+			{
+				"choiceId": "C3",
+				"value": "Sub Offices in Rural areas"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Gram Panchayats"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "90029",
+		"label": "The following component of the Modernization Project has the higher total Project cost",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "FSI - Financial System Integrator "
+			},
+			{
+				"choiceId": "C2",
+				"value": "CSI-Core System Integrator"
+			},
+			{
+				"choiceId": "C3",
+				"value": " DCF-Data Centre Facility"
+			},
+			{
+				"choiceId": "C4",
+				"value": "NI - Network Integrator"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "67893",
+		"label": "The correct process for creating new customer in BNPL in CSI is as under",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Contract creation, contact personcreation, customer creationContract creation, contact personcreation, customer creation"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Contract creation, customercreation, contact person creation"
+			},
+			{
+				"choiceId": "C3",
+				"value": " Customer creation, contract creation, contact person creation"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Customer creation, contact person creation, contract creation"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "13438",
+		"label": "For RPLI as on 31.03.2016, for Whole Life Assurance the rates of Bonus per Rs.1000 sum assured per annum is",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Rs.47"
+			},
+			{
+				"choiceId": "C2",
+				"value": " Rs.50"
+			},
+			{
+				"choiceId": "C3",
+				"value": " Rs.65"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Rs.70"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "52226",
+		"label": "The maximum time for issue of acceptance letter of a PLI/RPLI policy from the time taken after the receipt of completed documents is",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "7 days"
+			},
+			{
+				"choiceId": "C2",
+				"value": "14 days"
+			},
+			{
+				"choiceId": "C3",
+				"value": "15 days"
+			},
+			{
+				"choiceId": "C4",
+				"value": "18 days"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "96615",
+		"label": "During the Swachh Bharat Pakhwada held during November 2018, the Circle which was awarded the first prize was",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Tamil Nadu"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Kerala"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Bihar"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Maharashtra"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "87707",
+		"label": "During Swachh Bharat Abhiyaan, Postmen, Gramin Dak Sevaks were designated as:",
+		"correctChoiceId": "C1",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "Swachhta Doots"
+			},
+			{
+				"choiceId": "C2",
+				"value": " Swasthya Doots"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Shramadaan Doots"
+			},
+			{
+				"choiceId": "C4",
+				"value": " Swasthya Messengers"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "48047",
+		"label": "For closure of BO RD account at Account Office, the PA should invoke the following menu:",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "HCAACTD "
+			},
+			{
+				"choiceId": "C2",
+				"value": "FINRPT "
+			},
+			{
+				"choiceId": "C3",
+				"value": "CRDCAAC "
+			},
+			{
+				"choiceId": "C4",
+				"value": "HCAAC"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "96972",
+		"label": "Atal Pension Yojana (APY) Scheme launched in the year:",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "2014 "
+			},
+			{
+				"choiceId": "C2",
+				"value": "2015"
+			},
+			{
+				"choiceId": "C3",
+				"value": "2016"
+			},
+			{
+				"choiceId": "C4",
+				"value": "2017"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "27566",
+		"label": "Which of the following statements is not correct",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "From 01.07.2016, after getting sanction from the competent authority for issue of duplicate certificates, duplicate Pass book should be issued in lieu of certificates using procedure for issue of duplicate certificate in Finacale"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Kisan Vikas Patras werere introduced from 23.09.2015"
+			},
+			{
+				"choiceId": "C3",
+				"value": "10 year National Savings Certificates (IX Issue) was discontinued from 20.12.2015."
+			},
+			{
+				"choiceId": "C4",
+				"value": "There is no denomination of NSC VIII issue from 01.07.2016 but will be issued from Rs.100 and in multiples of Rs.100."
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "46574",
+		"label": "As per the Parcel Network Uptimisation Project, Nodal Delivery Centres (NDCs) are to be set up in all other towns/cities where?",
+		"correctChoiceId": "C4",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": " Parcel density exceeds 0.2 parcelsper square km"
+			},
+			{
+				"choiceId": "C2",
+				"value": "Parcel density exceeds 0.5 parcelsper square km"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Parcel density exceeds 0.75 parcelsper square km"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Parcel density exceeds 1 parcel persquare km"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "54316",
+		"label": "Under PNOP which of the following is true?",
+		"correctChoiceId": "C2",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "NSH will close only one bagcontains SP document and SP Parcel to when justified for other NSHS & ICHs"
+			},
+			{
+				"choiceId": "C2",
+				"value": "NSH will close two different bags for SP documents and SP Parcels when justified for other NSHs &ICHS"
+			},
+			{
+				"choiceId": "C3",
+				"value": "NSH will close only bags for SP Parcels when justified for other NSHS & ICHs"
+			},
+			{
+				"choiceId": "C4",
+				"value": "None of the above"
+			}
+		]
+	},
+	{
+		"subTopicId": 12,
+		"questionId": "35700",
+		"label": "The MNOP measures the following Key Performance Indicators (KPIs) I. Transit Analysis II. Scan Compliance III. Delivery Status Compliance IV. Use of Pin Code on all articles V. Use of correct Bag Labels.",
+		"correctChoiceId": "C3",
+		"answerExplanation": "",
+		"choices": [
+			{
+				"choiceId": "C1",
+				"value": "All of the above "
+			},
+			{
+				"choiceId": "C2",
+				"value": "Only 1,11& III"
+			},
+			{
+				"choiceId": "C3",
+				"value": "Only 1.11.11 & IV"
+			},
+			{
+				"choiceId": "C4",
+				"value": "Only I, II, III & V"
+			}
+		]
+	}
+]

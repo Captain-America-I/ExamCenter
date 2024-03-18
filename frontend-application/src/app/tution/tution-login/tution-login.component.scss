@@ -1,0 +1,331 @@
+
+body {
+	align-items: center;
+	background: #E3E3E3;
+	display: flex;
+	height: 150vh;
+	//justify-content: center;
+}
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+// Styling
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	//width: 960px;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+    margin-right: 20px;
+    margin-right: 20px;
+	}
+}
+
+
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0px;
+    font-size: 16px;
+    color: #848687;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: #f3f5f7;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #1c1e1e;
+    margin: 10px 0px 0px 0px;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  h5 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  h6 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  p {
+    margin: 0 0 24px;
+    line-height: 1.8;
+  }
+  p:last-child {
+    margin: 0px;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #1c1e1e;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  a:focus,
+  a:hover {
+    text-decoration: none;
+    color: #fb730f;
+  }
+  .box {
+  }
+  .box-head {
+    background-color: #ffffff;
+    border-bottom: 1px solid #f3f5f7;
+  }
+  .head-title {
+    padding: 16px 30px;
+    margin-bottom: 0px;
+  }
+  .box-body-login {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  .box-body {
+    background-color: #ffffff;
+    padding-top: 30px;
+    margin: 3%;
+  }
+  .mb20 {
+    margin-bottom: 20px;
+  }
+  .mb10 {
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    //padding-top: 40px;
+    //padding-bottom: 40px;
+  }
+  
+  label {
+  }
+  .control-label {
+    font-size: 15px;
+    color: #3c424b;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .form-control:focus {
+  }
+  .textarea.form-control {
+  }
+  .required {
+  }
+  .form-group {
+    margin-bottom: 5px;
+  }
+  .form-control {
+    border-radius: 3px;
+    color: #0c1f25;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    height: 52px;
+    padding: 12px 16px;
+    line-height: 1.42857143;
+    border: 1px solid rgb(160, 156, 156);
+    background-color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+  }
+  .form-control:focus {
+    border-color: #a5a8ab;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+  }
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin: 8px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+  }
+  input::-webkit-input-placeholder {
+    color: #0b131b !important;
+    opacity: 1;
+  }
+  input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: 1s none;
+  }
+  textarea::-webkit-input-placeholder {
+    color: #a6a7a8 !important;
+  }
+  .input-group-addon {
+    background-color: transparent;
+    border: 1px solid #e8ecf0;
+    border-radius: 0px;
+  }
+  .focus {
+    border: 2px solid #e8ecf0;
+    background-color: #fff;
+  }
+  .focus:focus {
+    border-color: #e8ecf0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .login-input {
+    position: relative;
+    margin-bottom: -21px;
+  }
+  .login-input .form-control {
+    background-color: #fff;
+    padding-left: 35px;
+  }
+  .login-icon {
+    display: inline-block;
+    position: relative;
+    bottom: 51px;
+    left: 18px;
+    font-size: 14px;
+  }
+  .eye-icon {
+    position: absolute;
+    bottom: 52px;
+    right: 18px;
+    font-size: 14px;
+  }
+  .btn-social-rectangle,
+  .btn-facebook .btn-twitter .btn-googleplus {
+    font-size: 14px;
+    margin-right: 6px;
+    display: inline-block;
+    line-height: 1.2;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 14px 26px;
+    border-radius: 4px;
+    line-height: 2;
+    letter-spacing: 2px;
+    border: transparent;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    word-wrap: break-word;
+    white-space: normal !important;
+  }
+  .btn-primary {
+    background-color: #fb730f;
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background-color: #ed6908;
+    color: #fff;
+  }
+  .btn-primary.focus,
+  .btn-primary:focus {
+    background-color: #ed6908;
+    color: rgb(112, 98, 98);
+  }
+  
+  .feature-left {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f4f7f9;
+  }
+  .feature-left:last-child {
+    margin-bottom: 0px;
+    border-bottom: transparent;
+  }
+  .feature-left .feature-content {
+    padding-top: 0px;
+    padding-left: 15px;
+  }
+  
+  // flashing text CSS
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  

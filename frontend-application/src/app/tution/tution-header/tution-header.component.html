@@ -1,0 +1,176 @@
+<div class="py-2 bg-light">
+    <div class="container-fluid">
+        <div class="row align-items-right">
+            <div class="col-12">
+                <span style="margin-right: 20px;"><i class="fa fa-mobile fa-lg"></i> {{tuitionService.tuitionDetails.mobile}} </span>
+                <span class="mr-2 ml-2"> <i class="fa fa-envelope"> </i> {{tuitionService.tuitionDetails.email}}  </span>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid ">
+        <a class="navbar-brand mb-0 h1">{{tuitionService.tuitionDetails.tuitionName}}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div *ngIf="tuitionService.isUserLoggedIn"class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                       Welcome, {{tuitionService.loggedInUser.firstName}}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/user/preferences"><i class="icon-cog"></i> Preferences</a></li>
+                        <li><a class="dropdown-item" href="/help/support"><i class="icon-envelope"></i> Contact Support</a></li>
+                        <li class="divider"></li>
+                        <li><a class="dropdown-item" href="/tution/{{tuitionService.tutionId}}"><i class="icon-off"></i> Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<!-- <div class="py-2 bg-light">
+    <div class="container">
+        <div class="row align-items-right">
+            <div class="col-12">
+                <span style="margin-right: 20px;"><i class="fa fa-mobile fa-lg"></i> {{tuitionService.tuitionDetails.mobile}} </span>
+                <span class="mr-2 ml-2"> <i class="fa fa-envelope">{{tuitionService.tuitionDetails.email}} </i>  </span>
+                <div class="row align-items-right">
+                
+                <div class="col-10"></div>
+                <div class="col-2">
+                    <span style="margin-right: 20px;">
+                        <ul class="list-unstyled">
+                            <li class="dropdown ml-2">
+                                <a class="rounded-circle" role="button" id="dropdownUser" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <div class="avatar avatar-md avatar-indicators avatar-online">
+                                        <img alt="avatar" src="https://via.placeholder.com/40x40" class="rounded-circle">
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu pb-2" aria-labelledby="dropdownUser">
+                                    <div class="dropdown-item">
+                                        <div class="d-flex py-2">
+                                            <div class="ml-3 lh-1">
+                                                <h5 class="mb-0">Annette Black</h5>
+                                                <p class="mb-0">annette@company.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a class="dropdown-item" href="@@webRoot/pages/profile-edit.html">
+                                                    <span class="mr-1"></span>Profile
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="@@webRoot/pages/student-subscriptions.html">
+                                                    <span class="mr-2"></span>Subscription
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#!">
+                                                    <span class="mr-2"></span>Settings
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="dropdown-item" href="@@webRoot/index.html">
+                                                <span class="mr-2"></span>Sign Out
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </span> 
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+</div> -->
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-12">
+            <ul class="list-unstyled">
+                <li class="dropdown ml-2">
+                    <a class="rounded-circle" role="button" id="dropdownUser" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <div class="avatar avatar-md avatar-indicators avatar-online">
+                            <img alt="avatar" src="https://via.placeholder.com/40x40" class="rounded-circle">
+                        </div>
+                    </a>
+                    <div class="dropdown-menu pb-2" aria-labelledby="dropdownUser">
+                        <div class="dropdown-item">
+                            <div class="d-flex py-2">
+                                <div class="ml-3 lh-1">
+                                    <h5 class="mb-0">Annette Black</h5>
+                                    <p class="mb-0">annette@company.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="dropdown-item" href="@@webRoot/pages/profile-edit.html">
+                                        <span class="mr-1"></span>Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="@@webRoot/pages/student-subscriptions.html">
+                                        <span class="mr-2"></span>Subscription
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#!">
+                                        <span class="mr-2"></span>Settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="dropdown-item" href="@@webRoot/index.html">
+                                    <span class="mr-2"></span>Sign Out
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="py-2 bg-light">
+    <div class="container">
+        <div class="row align-items-right">
+            <div class="col-lg-9 d-lg-block">
+                <h1>{{tuitionService.tuitionDetails.tuitionName}}</h1>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+

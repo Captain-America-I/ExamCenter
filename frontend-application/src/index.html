@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Exam Center</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <script data-ad-client="ca-pub-5346939613843126" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+  <script>
+    // PREVENT CONTEXT MENU FROM OPENING
+    document.addEventListener("load", function(){
+        // TARGET THIS SECTION ONLY
+        var target = document.getElementById("no-copy");
+        
+        // PREVENT CONTEXT MENU FROM OPENING
+        target.addEventListener("contextmenu", function(evt){
+          evt.preventDefault();
+        }, false);
+        
+        // PREVENT CLIPBOARD COPYING
+        target.addEventListener("copy", function(evt){
+          // Change the copied text if you want
+          evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+          // Prevent the default copy action
+          evt.preventDefault();
+        }, false);
+      });
+  </script>
+  <style>
+     /* NO SELECT + HIGHLIGHT COLOR */
+     #no-copy {
+        user-select: none;
+      }
+      #no-copy::selection {
+        background: none;
+      }
+      #no-copy::-moz-selection {
+        background: none;
+      }
+  </style>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+
+</html>

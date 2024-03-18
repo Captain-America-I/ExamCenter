@@ -1,0 +1,77 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="d-lg-flex half">
+  <div class="contents order-2 order-md-1">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-7 py-5" style="background-color: aliceblue;">
+          <h3>Register</h3>
+          <p>Enter below details to complete the registration.</p>
+          <form [formGroup]="createUserForm" (ngSubmit)="onSubmit()">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group first">
+                  <label for="firstname">First Name</label>
+                  <input type="text" autocomplete="off" [ngClass]="{ 'is-invalid': submitted && f.firstname.errors }"
+                    maxlength="40" class="form-control" formControlName="firstname" id="firstname"
+                    placeholder="Firstname (Required)">
+                  <div *ngIf="submitted && f.firstname.errors" class="invalid-feedback">
+                    <div *ngIf="f.firstname.errors.required">Firstname is required</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group first">
+                  <label for="lastname">Last Name</label>
+                  <input type="text" autocomplete="off" [ngClass]="{ 'is-invalid': submitted && f.lastname.errors }"
+                    maxlength="40" class="form-control" formControlName="lastname" id="lastname"
+                    placeholder="Lastname (Required)" />
+                  <div *ngIf="submitted && f.lastname.errors" class="invalid-feedback">
+                    <div *ngIf="f.lastname.errors.required">Lastname is required</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group first">
+                  <label for="lname">Email</label>
+                  <input type="text" autocomplete="off" [ngClass]="{ 'is-invalid': submitted && f.mobile.errors }" class="form-control" formControlName="mobile" id="mobile"
+                    placeholder="Email (Required)" />
+                  <div *ngIf="submitted && f.mobile.errors" class="invalid-feedback">
+                    <div *ngIf="f.mobile.errors.required">Email is required</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group first">
+                  <label for="tutionId">Tution ID</label>
+                  <input type="text" class="form-control" placeholder="tution id" id="tutionId">
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+            </div>
+            <button type="submit" class="btn btn-primary">Create User</button>
+          </form>
+          <div class="py-5">
+            <div *ngIf="isSuccess" class="alert alert-success" role="alert">
+              A new user for "{{name}}" as been created created successfully.
+              <br>
+              <b>username : {{username}}
+                <br>
+                password : {{password}}
+              </b>
+            </div>
+            <div *ngIf="isFaliure" class="alert alert-danger" role="alert">
+              Error : Something went wrong, user is not created. Please try again.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

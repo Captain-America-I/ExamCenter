@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+  viewBox="0 0 16 16">
+  <path
+    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+</svg>
+<ngx-spinner></ngx-spinner>
+<app-header></app-header>
+<div class="container-fluid mt-5">
+  <div *ngIf="!isDemoUser && questionsService.isMobileUser">
+    <span><b>Welcome, {{this.questionsService.getClientName()}}</b></span>
+  </div>
+  <div class="row p-4 mt-14">
+    <div class="col-md-6 align-self-center col-sm-12">
+      <div class="feature-content" *ngIf="isDemoUser">
+        <h4>Free Trial Version</h4>
+        <p>You have logged in using the demouser, this will give you trial version with limited set of questions from
+          each paper. </p>
+      </div>
+      <div>
+        <div *ngIf="isDemoUser">
+          <button type="submit" style="margin: 5px; width: 115px;" class="btn btn-secondary btn-block mb10"
+            (click)="routeTo('Paper-1/paper1-test1')">Demo Test 1</button>
+          <button type="submit" style="margin: 5px; width: 115px;" class="btn btn-secondary btn-block mb10"
+            (click)="routeTo('Paper-2/paper2-test1')">Demo Test 2</button>
+          <br>
+          <button type="submit" style="margin: 5px; width: 115px;" class="btn btn-secondary btn-block mb10"
+            (click)="routeTo('Paper-3/paper3-test1')">Demo Test 3</button>
+          <button type="submit" style="margin: 5px; width: 115px;" class="btn btn-secondary btn-block mb10"
+            (click)="routeTo('Paper-4/paper4-test1')">Demo Test 4</button>
+          <br>
+          <p class="mt-3">Pay <b>99 INR </b> on UPI <b> bhagwatkumbhar3@okicici </b> and share the screenshot to
+            <b>studycenter1215@gmail.com</b> to gain full access of
+            <b>(Inspector Post) IP Exam Test Paper of year 2019 and 1000 mock question.</b>
+          </p>
+        </div>
+        <h6 *ngIf="isDemoUser">(Available in Paid version only)</h6>
+        <h4 class="" style="color: red;"><b>IP Exam Paper 2019 </b></h4>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-success btn-block mb10" (click)="routeTo('Paper-1')">IP
+          Paper 1</button>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-success btn-block mb10" (click)="routeTo('Paper-2')">IP
+          Paper 2</button>
+        <br>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-success btn-block mb10" (click)="routeTo('Paper-3')">IP
+          Paper 3</button>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-success btn-block mb10" (click)="routeTo('Paper-4')">IP
+          Paper 4</button>
+        <br>
+        <h6>Note : Each Paper has 5 sub Test of 30 questions each.</h6>
+        <hr>
+        <h6 *ngIf="isDemoUser">(Available in Paid version only)</h6>
+        <h4 class="" style="color: rgb(70, 13, 226)(80, 80, 80);"><b>1000 Mock Questions </b></h4>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-primary btn-block mb10" (click)="routeTo('Mock Test-1')">Mock Test 1</button>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-primary btn-block mb10" (click)="routeTo('Mock Test-2')">Mock Test 2</button>
+        <br>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-primary btn-block mb10" (click)="routeTo('Mock Test-3')">Mock Test 3</button>
+        <button [disabled]="isDemoUser" type="submit" style="margin: 5px; width: 115px;"
+          class="btn btn-primary btn-block mb10" (click)="routeTo('Mock Test-4')">Mock Test 4</button>
+        <br>
+        <h6>Note : Each Mock Test has 5 sub Test of 50 questions each.</h6>
+      </div>
+      <div *ngIf="isDemoUser">
+        <div class="mb-3 mt-3 d-flex justify-content-center" *ngIf="this.deviceService.isMobile();">
+          <a class="btn btn-info"
+            href="mailto:studycenter1215@gmail.com?subject=Inquiry to Exam Center&amp;body=Hi Exam Center Team,"> <svg
+              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z">
+              </path>
+            </svg> Email Us</a>
+        </div>
+        <img style="width: 100%;" src="assets\images\image_payment.PNG" alt=" MCQ Test for Programming Interviews">
+      </div>
+
+    </div>
+    <div class="col-md-6 p-4 col-sm-12 d-md-block" *ngIf="isDemoUser">
+      <div class="blink_me">
+        <h3><u style="color: #fb730f;">Paid version gives you below benefits</u></h3>
+      </div>
+      <div class="feature-content">
+        <h4>24X7 Online Access</h4>
+        <p>Get online access to practice previous years (Inspector Post) IP Exam papers.</p>
+      </div>
+      <div class="feature-content">
+        <h4>Practice and Improve</h4>
+        <p>Practice unlimited mock tests and evaluate your performance and improve your speed.
+        </p>
+      </div>
+      <div class="feature-content">
+        <h4>Instant Results </h4>
+        <p>Our smart online examination platform provides instant assessment at the end of the
+          tests along with time taken and percentage scored.</p>
+      </div>
+    </div>
+    <div class="col-md-6 p-4 col-sm-12 d-md-block" *ngIf="!isDemoUser">
+      <div>
+        <h4 class="" style="color: red;"><b>Important instructions</b></h4>
+        <li class="blink_me"><b>You will be allowed to access the exam center content from this device browser only.</b>
+        </li>
+        <li>Please select the Paper from the top menu for which you would like to take a test.</li>
+        <li>To make it easy for you we have divided 150 questions in groups of 30 and provided as invidual test under
+          each
+          paper.</li>
+        <li>Our smart online examination platform provides instant assessment at the end of the tests along percentage
+          scored.</li>
+        <li>At the end of test all the question will be available for review and marked as correct or incorrect based on
+          the response provided by you.</li>
+        <li>You are requested to review all the question, you will be able to find which question were correct and which
+          were incorrect.</li>
+        <li>Incase of any issues faced or queries please contact our support email address
+          <b>studycenter1215@gmail.com</b> we will be happy to help you.
+        </li>
+        <br>
+        <div class="feature-content">
+          <h4>All the best for your exams, we hope you will have a wonderful experience on examcenter</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  Have suggestions or faced any issue? Please share your <a style="align-items: left;" href="javascript:void(0)"
+    (click)="triggerModal(modalData)">Feedback</a> here.
+  <app-footer></app-footer>
+</div>
+
+<ng-template #modalData let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Feedback</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <div class="alert alert-success" *ngIf="issueSubmitSuccess" role="alert">
+      Thank you for your valueable feedback!
+    </div>
+    <div class="alert alert-danger" *ngIf="ratingMissing" role="alert">
+      Please select the rating
+    </div>
+    <div class="modal-body text-center"> <i class="far fa-file-alt fa-4x mb-3 animated rotateIn icon1"></i>
+      <h3>Your opinion matters</h3>
+      <h5>Help us improve our product? <strong>Give us your feedback.</strong></h5>
+      <hr>
+    </div>
+    <form [formGroup]="reportIssueForm">
+      <div class="comment-box text-center">
+        <h4>Rate Us</h4>
+        <div class="rating">
+          <input type="radio" name="rating" (click)="ratingClick()" value="5" id="5" formControlName="rating"><label
+            for="5">☆</label>
+          <input type="radio" name="rating" (click)="ratingClick()" value="4" id="4" formControlName="rating"><label
+            for="4">☆</label>
+          <input type="radio" name="rating" (click)="ratingClick()" value="3" id="3" formControlName="rating"><label
+            for="3">☆</label>
+          <input type="radio" name="rating" (click)="ratingClick()" value="2" id="2" formControlName="rating"><label
+            for="2">☆</label>
+          <input type="radio" name="rating" (click)="ratingClick()" value="1" id="1" formControlName="rating"><label
+            for="1">☆</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <textarea class="form-control" ngbAutofocus id="review" rows="3" placeholder="Review"
+            formControlName="review"></textarea>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <div class="modal-footer">
+    <button *ngIf="!issueSubmitSuccess" type="button" class="btn btn-primary border-success btn-success"
+      (click)="submitFeedback()">Submit</button>
+    <button *ngIf="issueSubmitSuccess" type="button" class="btn btn-secondary"
+      (click)="modal.dismiss('Cross click')">Close</button>
+  </div>
+</ng-template>

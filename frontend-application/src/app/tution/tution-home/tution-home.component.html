@@ -1,0 +1,125 @@
+<app-tution-header></app-tution-header>
+<div class="container mt-5">
+    <button type="submit" class="btn btn-outline-primary mb10" (click)="routeTo('tution/tutionwelcome')">Back to Home</button>
+</div>
+
+<div *ngIf="subjectName == 'physics'" class="container mt-5">
+    <div class="row" style="padding: 20px;">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Chapter</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Electric Charges and Fields</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter1')">Start</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Electrostatic Potential and Capacitance</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter2')">Start</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Current Electricity</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter3')">Start</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div *ngIf="subjectName == 'maths'" class="container mt-5">
+    <div class="row" style="padding: 20px;">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Chapter</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Relations and Functions</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter1')">Start</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Matrices</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter2')">Start</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Integrals</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter3')">Start</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div *ngIf="subjectName == 'biology'" class="container mt-5">
+    <div class="row" style="padding: 20px;">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Chapter</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Evolution</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter1')">Start</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Ecosystem</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter2')">Start</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Environmental Issues</td>
+                    <td>
+                        <button type="submit" class="btn btn-outline-primary mb10"
+                            (click)="onSubmit('chapter3')">Start</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

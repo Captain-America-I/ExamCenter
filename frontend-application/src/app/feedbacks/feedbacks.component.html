@@ -1,0 +1,33 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="container-fluid mt-5" >
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-8">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+                                <thead *ngIf="dataLoaded" >
+                                  <tr>
+                                    <th>User Name</th>
+                                    <th>Rating</th>
+                                    <th>Review</th>
+                                    <th>Timestamp</th>
+                                  </tr>
+                                </thead>
+                                <tbody *ngIf="dataLoaded">
+                                    <tr *ngFor="let issue of userFeedbacks">
+                                        <td>{{issue.USERNAME}}</td>
+                                        <td>{{issue.RATING}}</td>
+                                        <td>{{issue.REVIEW}}</td>
+                                        <td>{{issue.TIMESTAMP}}</td>
+                                    </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+

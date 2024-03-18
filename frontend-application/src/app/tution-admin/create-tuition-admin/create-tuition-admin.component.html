@@ -1,0 +1,147 @@
+<app-admin-header></app-admin-header>
+<ngx-spinner></ngx-spinner>
+<div class="container-fluid mt-5">
+    <div>
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-12">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="alert alert-success" role="alert" *ngIf="showNotificationFlag">
+                                {{notificationMsg}}
+                            </div>
+                            <div class="alert alert-danger" role="alert" *ngIf="showNotificationErrorFlag">
+                                {{notificationMsg}}
+                            </div>
+                            <h5>Manage Tuition Admin</h5>
+                            <div class="row mb-5">
+                                <p for="typeahead-focus">Select Tuition Name</p>
+                                <input id="typeahead-focus" type="text" class="form-control"
+                                    [(ngModel)]="selectedTuitionName" [ngbTypeahead]="search"
+                                    (focus)="focus$.next($any($event).target.value)"
+                                    (click)="click$.next($any($event).target.value)" #instance="ngbTypeahead"
+                                    (selectItem)="selectedItem($event)" />
+                            </div>
+                            <form [formGroup]="tuitionAdminForm">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="firstName">First Name</label>
+                                            <input type="text" autocomplete="off"
+                                                [ngClass]="{ 'is-invalid': submitted && tuitionAdminForm.controls.firstName.errors }"
+                                                maxlength="40" class="form-control" formControlName="firstName"
+                                                id="firstName">
+                                            <div *ngIf="submitted && tuitionAdminForm.controls.firstName.errors"
+                                                class="invalid-feedback">
+                                                <div *ngIf="tuitionAdminForm.controls.firstName.errors.required">
+                                                    First Name is required</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="lastName">Last Name</label>
+                                            <input type="text" autocomplete="off"
+                                                [ngClass]="{ 'is-invalid': submitted && tuitionAdminForm.controls.lastName.errors }"
+                                                maxlength="40" class="form-control" formControlName="lastName"
+                                                id="lastName" />
+                                            <div *ngIf="submitted && tuitionAdminForm.controls.lastName.errors"
+                                                class="invalid-feedback">
+                                                <div *ngIf="tuitionAdminForm.controls.lastName.errors.required">
+                                                    Last Name is required
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="email">Email</label>
+                                            <input type="text" formControlName="email" class="form-control" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="mobile">Mobile</label>
+                                            <input type="text" formControlName="mobile" class="form-control"
+                                                id="mobile">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="address1">Username</label>
+                                            <input type="text" disabled formControlName="username" class="form-control"
+                                                id="username">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group first">
+                                            <label for="address2">Password</label>
+                                            <input type="text" disabled class="form-control" formControlName="password"
+                                                id="password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-success m-2"
+                                        (click)="addTuition()">Add</button>
+                                    <button type="submit" class="btn btn-primary m-2"
+                                        (click)="updateTuition()">Update</button>
+                                    <button type="submit" class="btn btn-danger m-2"
+                                        (click)="deleteTuition()">Delete</button>
+                                    <button type="submit" class="btn btn-secondary m-2"
+                                        (click)="resetDetails()">Reset</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center row">
+            <div class="col-sm-12">
+                <div class="container mt-5 ml-2 mb-2">
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+                                <thead>
+                                    <tr>
+                                        <th>Tuition Id</th>
+                                        <th>Username</th>
+                                        <th>Password</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Email</th>
+                                        <th>Mobile No</th>
+                                        <th>Last Update Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr (click)="onTableRowSelect(admin)" *ngFor="let admin of tuitionAdmins">
+                                        <td>{{admin.TUITION_ID}}</td>
+                                        <td>{{admin.USERNAME}}</td>
+                                        <td>{{admin.PASSWORD}}</td>
+                                        <td>{{admin.FIRSTNAME}}</td>
+                                        <td>{{admin.LASTNAME}}</td>
+                                        <td>{{admin.EMAIL}}</td>
+                                        <td>{{admin.MOBILE}}</td>
+                                        <td>{{admin.LAST_UPDATED_DATE}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

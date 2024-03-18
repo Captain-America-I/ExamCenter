@@ -1,0 +1,29 @@
+<app-header></app-header>
+<ngx-spinner></ngx-spinner>
+<div class="container-fluid mt-5" style="background-color: aliceblue;">
+
+	<div class="row p-4 mt-4">
+	</div>
+	<div class="row p-4 mt-4">
+		<div class="col-md-6 align-self-center col-sm-12">
+			<div *ngFor="let q of quiz">
+				<div *ngIf="topic == q.topicName">
+					<h1 class="txt-header display-4">Practice for <span class="text-primary"> {{topic}} </span></h1>
+					<div class="txt-header fs-4">Our specially designed test will help you to evaluate your knowlodge
+						and improve your preformance in actual exam.</div>
+					<div class="mt-4">
+						<a *ngFor="let s of q.subTopics" routerLink="/{{q.topicName}}/{{s.filename}}"
+							class="btn btn-primary btn-block me-2 mb-2">
+							{{s.subTopic}}
+						</a>
+					</div>
+					<span class="blink_me" *ngIf="isDemoUser"><b>You have logged in using demo user, You will be
+							able to access only Test 1 from each paper of IP Exam 2019. You will not be able to access Mock tests. </b></span>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="row p-4 mt-4">
+	</div>
+</div>
+<app-footer></app-footer>

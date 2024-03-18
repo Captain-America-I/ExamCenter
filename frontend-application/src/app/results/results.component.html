@@ -1,0 +1,103 @@
+<ngx-spinner></ngx-spinner>
+<app-header></app-header>
+<div id="no-copy" class="container-fluid mt-10">
+  <div class="d-flex justify-content-center row">
+    <div class="col-md-10 col-lg-10">
+      <div class="border question bg-white p-3 mt-3 border-bottom">
+        <div class="d-flex flex-row align-items-center question-title">
+          <h4 class="text-danger">Result Summary&nbsp;</h4>
+        </div>
+        <div class="alert-score">
+          <!-- You have answered {{numberOfCorrectAnswers}} questions correctly out of {{totalNumberOfQuestionsAttempted}} questions.
+          You have scored {{percentage}}%. -->
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">Test Name</th>
+                <th>{{testName}}</th>
+              </tr>
+              <tr>
+                <th scope="row">Total Questions</th>
+                <th>{{totalNumberOfQuestionsAttempted}}</th>
+              </tr>
+              <tr>
+                <th scope="row">Correct Answers</th>
+                <th>{{numberOfCorrectAnswers}}</th>
+              </tr>
+              <tr>
+                <th scope="row">Time Spent</th>
+                <th colspan="2">{{timeSpent | formatTime}}</th>
+              </tr>
+              <tr>
+                <th scope="row">Percentage</th>
+                <th colspan="2">{{percentage}}%</th>
+              </tr>
+              <tr>
+                <th scope="row">Performance</th>
+                <th colspan="2" [ngClass]="getPerformaceClass()">{{performanceText}}</th>
+              </tr>
+              <tr *ngIf="questionsService.isDemoUser">
+                <th>Rate Test</th>
+                <th>
+                  <form [formGroup]="testFeedbackForm">
+                    <div class="comment-box">
+                      <div class="rating">
+                        <input type="radio" name="rating" (change)="ratingClick($event)" value="5" id="5"
+                          formControlName="rating"><label for="5">☆</label>
+                        <input type="radio" name="rating" (change)="ratingClick($event)" value="4" id="4"
+                          formControlName="rating"><label for="4">☆</label>
+                        <input type="radio" name="rating" (change)="ratingClick($event)" value="3" id="3"
+                          formControlName="rating"><label for="3">☆</label>
+                        <input type="radio" name="rating" (change)="ratingClick($event)" value="2" id="2"
+                          formControlName="rating"><label for="2">☆</label>
+                        <input type="radio" name="rating" (change)="ratingClick($event)" value="1" id="1"
+                          formControlName="rating"><label for="1">☆</label>
+                      </div>
+                    </div>
+                  </form>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Scroll down to review the question -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center row">
+    <div class="col-md-10 col-lg-10">
+      <div *ngFor="let a of answers.values; let i=index">
+        <div class="border question bg-white p-3 mt-3 border-bottom">
+          <div *ngIf="!questions[i].program" class="d-flex flex-row align-items-center question-title">
+            <h3 class="text-danger">Q.{{questions[i].qNo}}&nbsp;</h3>
+            <h5 class="mt-1 ml-2">{{questions[i].label}}</h5>
+          </div>
+          <div *ngIf="questions[i].program">
+            <div class="d-flex flex-row align-items-center question-title">
+              <h3 class="text-danger">Q.{{questions[i].qNo}}&nbsp;</h3>
+              <h5 class="mt-1 ml-2 mb-2">What will be output for below program ?</h5>
+            </div>
+            <pre class="mt-1 ml-2 mb-2"
+              style="text-align: left;"><code [highlight]="questions[i].label" [lineNumbers]="true"></code></pre>
+          </div>
+          <div class="ans" *ngFor="let choice of questions[i].choices">
+            <div class="radio-toolbar">
+              <label id={{questions[i].questionId}}{{choice.choiceId}} class="mt-1 ml-2 mb-2">
+                {{choice.value}}
+                <i id="{{questions[i].questionId}}{{choice.choiceId}}correctIcon" hidden class="fa fa-check"
+                  aria-hidden="true"></i>
+                <i id="{{questions[i].questionId}}{{choice.choiceId}}inCorrectIcon" hidden class="fa fa-times"
+                  aria-hidden="true"></i>
+              </label>
+            </div>
+          </div>
+          <div class="alert alert-success" *ngIf="a.answerExplanation">
+            <b>Explanation : </b>{{a.answerExplanation}}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
